@@ -53,3 +53,14 @@
 		    banner-mode: "console" # 控制台 
 		    				"log"  # 日志
 		    				"off"  ＃关闭
+
+4 .监听器
+  
+  - 监听器的创建优先于ApplicationContext的创建，所以**不能**通过@Bean注解来创建，可以通过SpringApplication和SpringApplicationBuilder中的方法来**手动**添加监听器；同时可以在META-INF/spring.factories文件中通过key为org.springframework.context.ApplicationListener来配置**自动**创建的监听器 
+  - 常用的监听器
+  	- ApplicationStartingEvent：启动前调用
+  	- ApplicationEnvironmentPreparedEvent：在context创建之前，enviroment创建之后
+  	- ApplicationPreparedEvent：在所有的bean定义之后，开始refresh时
+  	- ApplicationStartedEvent：初始化完成之后，application 和commandline runners调用之前
+  	- ApplicationReadyEvent：application 和commandline runners调用之后，准备提供请求
+  	- ApplicationFailedEvent：启动失败
