@@ -1,0 +1,18 @@
+name: 我是类路径根目录中的配置
+
+spring:
+  profiles:
+    active: development
+
+person:
+  address: 192.168.1.100
+---
+spring:
+  profiles: development
+person:
+  address: 127.0.0.1
+---
+spring:
+  profiles: production
+person:
+  address: 192.168.1.120

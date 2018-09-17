@@ -9,6 +9,7 @@
     <version>1.0.0</version>
     <modules>
         <module>chapter-1</module>
+        <module>chapter-2</module>
     </modules>
     <packaging>pom</packaging>
 
