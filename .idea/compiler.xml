@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="chapter-1" />
         <module name="chapter-2" />
+        <module name="chapter-3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="chapter-1" target="1.8" />
       <module name="chapter-2" target="1.8" />
+      <module name="chapter-3" target="1.8" />
       <module name="springboot-2.0.x" target="1.8" />
     </bytecodeTargetLevel>
   </component>
