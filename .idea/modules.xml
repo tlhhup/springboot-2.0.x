@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/chapter-1/chapter-1.iml" filepath="$PROJECT_DIR$/chapter-1/chapter-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-2/chapter-2.iml" filepath="$PROJECT_DIR$/chapter-2/chapter-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-3/chapter-3.iml" filepath="$PROJECT_DIR$/chapter-3/chapter-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-4/chapter-4.iml" filepath="$PROJECT_DIR$/chapter-4/chapter-4.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-2.0.x.iml" filepath="$PROJECT_DIR$/springboot-2.0.x.iml" />
     </modules>
   </component>
