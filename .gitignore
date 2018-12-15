@@ -23,3 +23,12 @@
 hs_err_pid*
 chapter-1/src/test/
 chapter-2/src/test/
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen### Example user template template
+
