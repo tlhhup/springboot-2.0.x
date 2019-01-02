@@ -12,6 +12,7 @@
         <module name="chapter-4" />
         <module name="chapter-5" />
         <module name="chapter-6" />
+        <module name="oauth-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,8 @@
       <module name="chapter-4" target="1.8" />
       <module name="chapter-5" target="1.8" />
       <module name="chapter-6" target="1.8" />
+      <module name="chapter-7" target="1.8" />
+      <module name="oauth-server" target="1.8" />
       <module name="springboot-2.0.x" target="1.8" />
     </bytecodeTargetLevel>
   </component>
