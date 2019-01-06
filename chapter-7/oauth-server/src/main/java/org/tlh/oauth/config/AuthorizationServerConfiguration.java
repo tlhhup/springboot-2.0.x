@@ -27,7 +27,8 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 @EnableAuthorizationServer
 public class AuthorizationServerConfiguration extends AuthorizationServerConfigurerAdapter {
 
-    private static final String DEMO_RESOURCE_ID = "order";
+    private static final String ORDER = "order";
+    private static final String PRODUCT = "product";
 
 
     @Autowired
@@ -42,13 +43,13 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
         String finalSecret = "{bcrypt}" + new BCryptPasswordEncoder().encode("123456");
         //配置两个客户端,一个用于password认证一个用于client认证
         clients.inMemory().withClient("client_1")
-                .resourceIds(DEMO_RESOURCE_ID)// 3. todo 设置该用户具有的资源
+                .resourceIds(ORDER)// 3. todo 设置该用户具有的资源
                 .authorizedGrantTypes("client_credentials", "refresh_token")
                 .scopes("select")
                 .authorities("oauth2")
                 .secret(finalSecret)
                 .and().withClient("client_2")
-                .resourceIds(DEMO_RESOURCE_ID)
+                .resourceIds(ORDER,PRODUCT)
                 .authorizedGrantTypes("password", "refresh_token")
                 .scopes("select")
                 .authorities("oauth2")

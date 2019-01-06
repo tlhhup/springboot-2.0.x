@@ -18,7 +18,7 @@ public class ResourceServerConfiguration extends ResourceServerConfigurerAdapter
     @Override
     public void configure(ResourceServerSecurityConfigurer resources) {
         // 1.todo 该位置为设置有那些资源
-        resources.resourceId("order").stateless(true).resourceId("product").stateless(true);
+        resources.resourceId("order").stateless(true);//.resourceId("product").stateless(true);
     }
 
     @Override

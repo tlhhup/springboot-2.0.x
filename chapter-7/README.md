@@ -351,4 +351,60 @@
 			}
 6. 源码分析
 	1. 认证(token的创建)
+		1. [获取token](http://blog.didispace.com/spring-security-oauth2-xjf-2/) 
 	2. 授权   	
+		1. 资源服务器通过remoteTokenService调用认证服务器的check_token端点，进行token的校验，并返回该client所有的资源ID
+		2. OAuth2AuthenticationManager#authenticate该方法中
+
+				public Authentication authenticate(Authentication authentication) throws AuthenticationException {
+			
+					// 1.通过tokenservice校验token(这个使用RemoteTokenService)
+					String token = (String) authentication.getPrincipal();
+					OAuth2Authentication auth = tokenServices.loadAuthentication(token);
+					if (auth == null) {
+						throw new InvalidTokenException("Invalid token: " + token);
+					}
+					//2. 获取该client拥有的所有资源ID
+					Collection<String> resourceIds = auth.getOAuth2Request().getResourceIds();
+					if (resourceId != null && resourceIds != null && !resourceIds.isEmpty() && !resourceIds.contains(resourceId)) {
+						throw new OAuth2AccessDeniedException("Invalid token does not contain resource id (" + resourceId + ")");
+					}
+					//3. 补救，对scope进行校验，如果该位置成功则说明该资源该client可以访问了
+					checkClientDetails(auth);
+			
+					if (authentication.getDetails() instanceof OAuth2AuthenticationDetails) {
+						OAuth2AuthenticationDetails details = (OAuth2AuthenticationDetails) authentication.getDetails();
+						// Guard against a cached copy of the same details
+						if (!details.equals(auth.getDetails())) {
+							// Preserve the authentication details from the one loaded by token services
+							details.setDecodedDetails(auth.getDetails());
+						}
+					}
+					auth.setDetails(authentication.getDetails());
+					auth.setAuthenticated(true);
+					return auth;
+	
+			}	
+	3. 说明
+		1. **资源服务器的resourceID**，对于认证服务器和资源服务器分离的，资源服务器对器受保护的资源必须添加resourceID,并且一个资源服务器之后有一个(设置多个，后面的有效)
+
+				private void checkClientDetails(OAuth2Authentication auth) {
+					// 此时该对象为空，及出现受保护的资源不再受保护(可以设置，或扩展clientDetailsService接口)
+					if (clientDetailsService != null) {
+						ClientDetails client;
+						try {
+							client = clientDetailsService.loadClientByClientId(auth.getOAuth2Request().getClientId());
+						}
+						catch (ClientRegistrationException e) {
+							throw new OAuth2AccessDeniedException("Invalid token contains invalid client id");
+						}
+						// 此处为补救措施
+						Set<String> allowed = client.getScope();
+						for (String scope : auth.getOAuth2Request().getScope()) {
+							if (!allowed.contains(scope)) {
+								throw new OAuth2AccessDeniedException(
+										"Invalid token contains disallowed scope (" + scope + ") for this client");
+							}
+						}
+					}
+				}
