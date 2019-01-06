@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    password: 123456
+    username: root
+    url: jdbc:mysql:///oauth2
+    driver-class-name: org.gjt.mm.mysql.Driver
+    type: org.springframework.jdbc.datasource.DriverManagerDataSource
+logging:
+  level:
+    org.springframework.security: debug

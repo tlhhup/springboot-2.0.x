@@ -15,6 +15,7 @@
         <module>auth-server</module>
         <module>product-service</module>
         <module>order-service</module>
+        <module>auth-server-jdbc</module>
     </modules>
 
 
