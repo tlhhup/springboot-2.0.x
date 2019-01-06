@@ -1,31 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f490986d-0bda-44aa-b8b4-f80b63cd6b49" name="Default" comment="1.添加oauth2认证&#10;2.认证之后调用后端服务可以在请求头添加：Authorization token_type token即可调用后端服务">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-7/oauth2/auth-server/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-7/oauth2/auth-server/src/main/java/org/tlh/oauth/AuthServerApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-7/oauth2/auth-server/src/main/java/org/tlh/oauth/config/AuthorizationServerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-7/oauth2/auth-server/src/main/java/org/tlh/oauth/config/SecurityConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-7/oauth2/auth-server/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-7/oauth2/order-service/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-7/oauth2/order-service/src/main/java/org/tlh/oauth/OrderApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-7/oauth2/order-service/src/main/java/org/tlh/oauth/config/ResourceServerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-7/oauth2/order-service/src/main/java/org/tlh/oauth/controller/OrderController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-7/oauth2/order-service/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-7/oauth2/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-7/oauth2/product-service/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-7/oauth2/product-service/src/main/java/org/tlh/oauth/ProductApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-7/oauth2/product-service/src/main/java/org/tlh/oauth/config/ResourceServerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-7/oauth2/product-service/src/main/java/org/tlh/oauth/controller/ProductController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-7/oauth2/product-service/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="f490986d-0bda-44aa-b8b4-f80b63cd6b49" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-7/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter-7/oauth-server/src/main/java/org/tlh/oauth/config/AuthorizationServerConfiguration.java" afterPath="$PROJECT_DIR$/chapter-7/oauth-server/src/main/java/org/tlh/oauth/config/AuthorizationServerConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter-7/oauth-server/src/main/java/org/tlh/oauth/config/ResourceServerConfiguration.java" afterPath="$PROJECT_DIR$/chapter-7/oauth-server/src/main/java/org/tlh/oauth/config/ResourceServerConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter-7/pom.xml" afterPath="$PROJECT_DIR$/chapter-7/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,20 +40,7 @@
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AuthorizationServerConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/auth-server/src/main/java/org/tlh/oauth/config/AuthorizationServerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="70" column="47" lean-forward="true" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -256,14 +221,14 @@
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
               <item name="chapter-7" type="462c0819:PsiDirectoryNode" />
               <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
               <item name="chapter-7" type="462c0819:PsiDirectoryNode" />
               <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -271,7 +236,7 @@
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
               <item name="chapter-7" type="462c0819:PsiDirectoryNode" />
               <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -280,7 +245,7 @@
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
               <item name="chapter-7" type="462c0819:PsiDirectoryNode" />
               <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -290,7 +255,7 @@
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
               <item name="chapter-7" type="462c0819:PsiDirectoryNode" />
               <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -301,7 +266,7 @@
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
               <item name="chapter-7" type="462c0819:PsiDirectoryNode" />
               <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -313,55 +278,12 @@
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
               <item name="chapter-7" type="462c0819:PsiDirectoryNode" />
               <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="auth-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-7" type="462c0819:PsiDirectoryNode" />
-              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="order-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-7" type="462c0819:PsiDirectoryNode" />
-              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="order-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-7" type="462c0819:PsiDirectoryNode" />
-              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="order-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-7" type="462c0819:PsiDirectoryNode" />
-              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="order-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-7" type="462c0819:PsiDirectoryNode" />
-              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
               <item name="order-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="oauth" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -626,7 +548,7 @@
       <workItem from="1546333005524" duration="674000" />
       <workItem from="1546435239203" duration="5045000" />
       <workItem from="1546693026001" duration="5434000" />
-      <workItem from="1546741146463" duration="9547000" />
+      <workItem from="1546741146463" duration="11267000" />
     </task>
     <task id="LOCAL-00001" summary="1.缓存应用">
       <created>1544878494043</created>
@@ -642,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546440309227</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.添加oauth2认证,将授权服务器和资源服务器分离&#10;2.auth-server：为授权服务器，用于token的签发和token的校验&#10;3.order-service和product-service为两个资源服务器，同时也是受保护的资源，通过remoteTokenService向授权服务器进行token的校验和保护资源的鉴权">
+      <created>1546752297512</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546752297512</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -678,11 +607,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47054000" />
+    <option name="totallyTimeSpent" value="48774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="955" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -705,7 +633,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6694611" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24358974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24358974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -789,7 +717,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.缓存应用" />
     <MESSAGE value="1.添加oauth2认证&#10;2.认证之后调用后端服务可以在请求头添加：Authorization token_type token即可调用后端服务" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.添加oauth2认证&#10;2.认证之后调用后端服务可以在请求头添加：Authorization token_type token即可调用后端服务" />
+    <MESSAGE value="1.添加oauth2认证,将授权服务器和资源服务器分离&#10;2.auth-server：为授权服务器，用于token的签发和token的校验&#10;3.order-service和product-service为两个资源服务器，同时也是受保护的资源，通过remoteTokenService向授权服务器进行token的校验和保护资源的鉴权" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.添加oauth2认证,将授权服务器和资源服务器分离&#10;2.auth-server：为授权服务器，用于token的签发和token的校验&#10;3.order-service和product-service为两个资源服务器，同时也是受保护的资源，通过remoteTokenService向授权服务器进行token的校验和保护资源的鉴权" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -857,14 +786,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter-7/oauth-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="21" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="33" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/product-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -878,16 +799,6 @@
         <state relative-caret-position="17">
           <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/order-service/src/main/java/org/tlh/oauth/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -943,14 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/auth-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.2.RELEASE/spring-security-oauth2-2.3.2.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/token/AccessTokenConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -991,14 +894,6 @@
             <element signature="e#339#340#0" expanded="true" />
             <element signature="e#407#408#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/order-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,14 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/order-service/src/main/java/org/tlh/oauth/config/ResourceServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="39" column="48" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="39" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/product-service/src/main/java/org/tlh/oauth/config/ResourceServerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
@@ -1176,14 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/auth-server/src/main/java/org/tlh/oauth/config/SecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1271,13 +1150,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-7/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/auth-server/src/main/java/org/tlh/oauth/config/AuthorizationServerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="70" column="47" lean-forward="true" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+        <state relative-caret-position="671">
+          <caret line="100" column="1" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="100" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/auth-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="19" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="33" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/auth-server/src/main/java/org/tlh/oauth/config/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="55" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/order-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/order-service/src/main/java/org/tlh/oauth/config/ResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/order-service/src/main/java/org/tlh/oauth/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
