@@ -227,7 +227,128 @@
 		1. 设置请求头：Authorization  值为：bearer+token
 5. 基于数据库的认证服务器搭建
 	1. 初始化数据库表结构
+
+			-- 创建用户表
+			drop table if exists users;
+			create table users(
+			  id int primary key auto_increment,
+			  username varchar(100),
+			  password varchar(200),
+			  realname varchar(20),
+			  usertype int,
+			  enabled boolean
+			);
+			-- 创建oauth_client_details
+			drop table if exists oauth_client_details;
+			create table oauth_client_details(
+				client_id varchar(100) primary key comment '客户端ID',
+			    client_secret varchar(200) comment '密钥',
+			    resource_ids varchar(5000) comment '资源ID，采用，隔开',
+			    scope varchar(200) comment '角色，采用，隔开',
+			    authorized_grant_types varchar(150) comment '授权类型，采用，隔开',
+			    web_server_redirect_uri varchar(200) comment '重定向URL地址',
+			    authorities varchar(500) comment '权限，采用,隔开',
+			    access_token_validity int comment 'access token 有效时间',
+			    refresh_token_validity int comment 'refresh token 有效时间',
+			    autoapprove boolean comment '是否需要授权',
+			    additional_information varchar(500) comment '自定义数据，json格式'
+			);
 	2. 添加依赖 
+
+			<dependencies>
+		        <dependency>
+		            <groupId>org.springframework.boot</groupId>
+		            <artifactId>spring-boot-starter-web</artifactId>
+		        </dependency>
+		        <dependency>
+		            <groupId>org.springframework.security.oauth</groupId>
+		            <artifactId>spring-security-oauth2</artifactId>
+		            <version>2.3.2.RELEASE</version>
+		        </dependency>
+		        <dependency>
+		            <groupId>org.springframework.security</groupId>
+		            <artifactId>spring-security-jwt</artifactId>
+		            <version>1.0.9.RELEASE</version>
+		        </dependency>
+		        <dependency>
+		            <groupId>mysql</groupId>
+		            <artifactId>mysql-connector-java</artifactId>
+		        </dependency>
+		        <dependency>
+		            <groupId>org.springframework.boot</groupId>
+		            <artifactId>spring-boot-starter-jdbc</artifactId>
+		        </dependency>
+		        <dependency>
+		            <groupId>org.projectlombok</groupId>
+		            <artifactId>lombok</artifactId>
+		        </dependency>
+		        <dependency>
+		            <groupId>org.springframework.boot</groupId>
+		            <artifactId>spring-boot-starter-test</artifactId>
+		            <scope>test</scope>
+		        </dependency>
+		    </dependencies>
+    3. 定义UserDetailService加载用户信息
+
+    		@Slf4j
+			@Service
+			public class AuthUserDetailService implements UserDetailsService {
+			
+			    private static final String DEF_USER_EXISTS_SQL = "select username,password,enabled from users where username = ?";
+			
+			    @Autowired
+			    private JdbcTemplate jdbcTemplate;
+			
+			    private MessageSourceAccessor messages = SpringSecurityMessageSource.getAccessor();
+			
+			    @Override
+			    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+			        List<UserDetails> users = this.jdbcTemplate.query(this.DEF_USER_EXISTS_SQL,
+			                new String[]{username}, new RowMapper<UserDetails>() {
+			                    @Override
+			                    public UserDetails mapRow(ResultSet rs, int rowNum)
+			                            throws SQLException {
+			                        String username = rs.getString(1);
+			                        String password = rs.getString(2);
+			                        boolean enabled = rs.getBoolean(3);
+			                        return new User(username, password, enabled, true, true, true,
+			                                AuthorityUtils.NO_AUTHORITIES);
+			                    }
+			
+			                });
+			        if (users.size() == 0) {
+			            log.debug("Query returned no results for user '" + username + "'");
+			
+			            throw new UsernameNotFoundException(
+			                    this.messages.getMessage("JdbcDaoImpl.notFound",
+			                            new Object[] { username }, "Username {0} not found"));
+			        }
+			        UserDetails user = users.get(0);
+			        return user;
+			    }
+			}
+	4. 认证服务器配置，和之前的配置一致，只是client的信息通过数据库存储
+
+			@Configuration
+			@EnableAuthorizationServer
+			public class AuthorizationServerConfiguration extends AuthorizationServerConfigurerAdapter {
+				....
+			
+			    @Autowired
+			    private PasswordEncoder passwordEncoder;
+			
+			    @Autowired
+			    private DataSource dataSource;
+				....
+			
+			    @Override
+			    public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
+			        clients.jdbc(dataSource).passwordEncoder(passwordEncoder);
+			    }
+			
+			    ......
+	
+			}
 6. 源码分析
 	1. 认证(token的创建)
 	2. 授权   	
