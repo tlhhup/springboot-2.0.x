@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="auth-server" />
         <module name="chapter-1" />
         <module name="chapter-2" />
         <module name="chapter-3" />
@@ -13,9 +14,12 @@
         <module name="chapter-5" />
         <module name="chapter-6" />
         <module name="oauth-server" />
+        <module name="order-service" />
+        <module name="product-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="auth-server" target="1.8" />
       <module name="chapter-1" target="1.8" />
       <module name="chapter-2" target="1.8" />
       <module name="chapter-3" target="1.8" />
@@ -24,6 +28,9 @@
       <module name="chapter-6" target="1.8" />
       <module name="chapter-7" target="1.8" />
       <module name="oauth-server" target="1.8" />
+      <module name="oauth2" target="1.8" />
+      <module name="order-service" target="1.8" />
+      <module name="product-service" target="1.8" />
       <module name="springboot-2.0.x" target="1.8" />
     </bytecodeTargetLevel>
   </component>

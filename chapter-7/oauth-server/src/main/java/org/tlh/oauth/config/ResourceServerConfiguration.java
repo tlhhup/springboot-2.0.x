@@ -17,13 +17,16 @@ public class ResourceServerConfiguration extends ResourceServerConfigurerAdapter
 
     @Override
     public void configure(ResourceServerSecurityConfigurer resources) {
-        resources.resourceId("order").stateless(true);
+        // 1.todo 该位置为设置有那些资源
+        resources.resourceId("order").stateless(true).resourceId("product").stateless(true);
     }
 
     @Override
     public void configure(HttpSecurity http) throws Exception {
+        // 2. todo 设置那些资源需要授权之后才能访问
         http
                 .authorizeRequests()
+                .antMatchers("/product/**").authenticated()
                 .antMatchers("/order/**").authenticated();//配置order访问控制，必须认证过后才可以访问
 
     }
