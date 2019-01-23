@@ -15,5 +15,6 @@
     <file url="file://$PROJECT_DIR$/chapter-7/oauth2/auth-server-jdbc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter-7/oauth2/order-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter-7/oauth2/product-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-8" charset="UTF-8" />
   </component>
 </project>

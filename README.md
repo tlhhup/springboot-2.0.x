@@ -8,3 +8,8 @@ springboot2.0.x学习整理
 - chapter-5：数据库事务应用
 - chapter-6：redis缓存配置
 - chapter-7：oauth 2
+- chapter-8：quartz
+
+
+### 说明
+1. 集成h2的console，其使用的URL地址为: `jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE`

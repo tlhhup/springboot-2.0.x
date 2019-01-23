@@ -44,3 +44,5 @@ buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 
+chapter-7/oauth-server/src/test/
+chapter-8/src/test/
