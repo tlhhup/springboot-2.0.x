@@ -9,6 +9,7 @@ springboot2.0.x学习整理
 - chapter-6：redis缓存配置
 - chapter-7：oauth 2
 - chapter-8：quartz
+- chapter-9：ImportBeanDefinitionRegistrar实现bean的动态注册(模拟rpc客户端创建过程)
 
 
 ### 说明

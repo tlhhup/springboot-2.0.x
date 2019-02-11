@@ -15,6 +15,7 @@
         <module name="chapter-5" />
         <module name="chapter-6" />
         <module name="chapter-8" />
+        <module name="chapter-9" />
         <module name="oauth-server" />
         <module name="order-service" />
         <module name="product-service" />
@@ -31,6 +32,7 @@
       <module name="chapter-6" target="1.8" />
       <module name="chapter-7" target="1.8" />
       <module name="chapter-8" target="1.8" />
+      <module name="chapter-9" target="1.8" />
       <module name="oauth-server" target="1.8" />
       <module name="oauth2" target="1.8" />
       <module name="order-service" target="1.8" />

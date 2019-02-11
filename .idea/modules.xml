@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/chapter-6/chapter-6.iml" filepath="$PROJECT_DIR$/chapter-6/chapter-6.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-7/chapter-7.iml" filepath="$PROJECT_DIR$/chapter-7/chapter-7.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-8/chapter-8.iml" filepath="$PROJECT_DIR$/chapter-8/chapter-8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-9/chapter-9.iml" filepath="$PROJECT_DIR$/chapter-9/chapter-9.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-7/oauth-server/oauth-server.iml" filepath="$PROJECT_DIR$/chapter-7/oauth-server/oauth-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-7/oauth2/oauth2.iml" filepath="$PROJECT_DIR$/chapter-7/oauth2/oauth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-7/oauth2/order-service/order-service.iml" filepath="$PROJECT_DIR$/chapter-7/oauth2/order-service/order-service.iml" />
