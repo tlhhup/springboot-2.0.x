@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+
+    <!-- Logging Properties -->
+    <Properties>
+        <Property name="LOG_PATTERN">%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n</Property>
+        <Property name="audit-path">target</Property>
+        <Property name="file-name">audit</Property>
+        <Property name="file-header">id,userId,status</Property>
+    </Properties>
+
+    <Appenders>
+
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT" follow="true">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </Console>
+
+        <!-- 使用commons-csv组件生成csv文件
+            fileName:文件的名称
+            filePattern:归档文件名称
+            append:追加的方式，默认为true
+        -->
+        <RollingFile name="csvfile"
+                     append="false"
+                     fileName="${audit-path}/${file-name}.csv"
+                     filePattern="${audit-path}/${file-name}-%d{yyyy-MM-dd}-%i.csv">
+            <CsvParameterLayout delimiter="," header="${file-header}"/>
+            <Policies>
+                <!-- 设置文件大小 -->
+                <SizeBasedTriggeringPolicy size="10M" />
+            </Policies>
+        </RollingFile>
+
+        <!-- 文本文件 -->
+        <File name="file"
+              append="false"
+              fileName="${audit-path}/realTime.txt">
+            <PatternLayout header="${file-header}">
+                <Pattern>%m%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="csv" additivity="false" level="debug">
+            <AppenderRef ref="csvfile"/>
+        </Logger>
+        <Logger name="file" additivity="false" level="debug">
+            <AppenderRef ref="file"/>
+        </Logger>
+        <Root level="warn">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+
+</Configuration>
