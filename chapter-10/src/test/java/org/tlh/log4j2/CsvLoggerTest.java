@@ -26,4 +26,9 @@ public class CsvLoggerTest {
         csv.info(new ObjectArrayMessage(1,2,200));
     }
 
+    @Test
+    public void save(){
+        new CsvLogger().save();
+    }
+
 }

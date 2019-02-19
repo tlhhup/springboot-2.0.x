@@ -13,6 +13,7 @@
 
         <!-- Console Appender -->
         <Console name="Console" target="SYSTEM_OUT" follow="true">
+            <ThresholdFilter level="ALL"/>
             <PatternLayout pattern="${LOG_PATTERN}"/>
         </Console>
 
@@ -43,13 +44,19 @@
     </Appenders>
 
     <Loggers>
+
+        <!-- 按照lombok生成的logger配置logger -->
+        <Logger name="org.tlh.log4j2.CsvLogger" additivity="false" level="debug">
+            <AppenderRef ref="csvfile"/>
+        </Logger>
+
         <Logger name="csv" additivity="false" level="debug">
             <AppenderRef ref="csvfile"/>
         </Logger>
         <Logger name="file" additivity="false" level="debug">
             <AppenderRef ref="file"/>
         </Logger>
-        <Root level="warn">
+        <Root level="debug">
             <AppenderRef ref="Console"/>
         </Root>
     </Loggers>
