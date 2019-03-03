@@ -10,6 +10,7 @@
         <module name="auth-server-jdbc" />
         <module name="chapter-1" />
         <module name="chapter-10" />
+        <module name="chapter-11" />
         <module name="chapter-2" />
         <module name="chapter-3" />
         <module name="chapter-4" />
@@ -27,6 +28,7 @@
       <module name="auth-server-jdbc" target="1.8" />
       <module name="chapter-1" target="1.8" />
       <module name="chapter-10" target="1.8" />
+      <module name="chapter-11" target="1.8" />
       <module name="chapter-2" target="1.8" />
       <module name="chapter-3" target="1.8" />
       <module name="chapter-4" target="1.8" />
