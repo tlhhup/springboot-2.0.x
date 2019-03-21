@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="debug" name="RoutingTest">
+
+    <Properties>
+        <Property name="filename">target/$${date:MM-dd-yyyy}.log</Property>
+        <Property name="filename1">target/$${ctx:fileName}</Property>
+        <Property name="filename2">target/${sys:fileName}</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="STDOUT">
+            <PatternLayout pattern="%m%n"/>
+            <ThresholdFilter level="debug"/>
+        </Console>
+        <File name="MyFile" fileName="${filename2}">
+            <PatternLayout>
+                <Pattern>%d %p ${filename1} %c{1.} [%t] %m%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+
+    <Loggers>
+
+        <Logger name="detail" level="info">
+            <AppenderRef ref="MyFile"/>
+        </Logger>
+
+        <Root level="error">
+            <AppenderRef ref="STDOUT"/>
+        </Root>
+    </Loggers>
+
+</Configuration>

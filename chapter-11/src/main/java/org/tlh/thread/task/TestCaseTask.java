@@ -1,5 +1,8 @@
 package org.tlh.thread.task;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.CyclicBarrier;
 
@@ -14,11 +17,14 @@ public class TestCaseTask implements Runnable {
 
     private CyclicBarrier allStart;
     private CountDownLatch firstEnd;
+    private Logger detail;;
 
     public TestCaseTask(int processId, CyclicBarrier allStart, CountDownLatch firstEnd) {
         this.processId = processId;
         this.allStart = allStart;
         this.firstEnd = firstEnd;
+
+        detail = LogManager.getLogger("detail");
     }
 
     @Override
@@ -45,7 +51,7 @@ public class TestCaseTask implements Runnable {
              *
              */
             this.firstEnd.countDown();
-            System.out.println(Thread.currentThread().getName()+":"+processId+"退出:"+System.currentTimeMillis());
+            detail.info(Thread.currentThread().getName()+":"+processId+"退出:"+System.currentTimeMillis());
         } catch (Exception e) {
             e.printStackTrace();
         }
