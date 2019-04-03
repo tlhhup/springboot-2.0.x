@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f490986d-0bda-44aa-b8b4-f80b63cd6b49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-11/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-11/src/main/resources/log4j2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter-11/src/test/java/org/tlh/test/FileTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter-11/pom.xml" afterPath="$PROJECT_DIR$/chapter-11/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter-11/src/main/java/org/tlh/thread/StartProcess.java" afterPath="$PROJECT_DIR$/chapter-11/src/main/java/org/tlh/thread/StartProcess.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chapter-11/src/main/java/org/tlh/thread/task/TestCaseTask.java" afterPath="$PROJECT_DIR$/chapter-11/src/main/java/org/tlh/thread/task/TestCaseTask.java" />
+      <change afterPath="$PROJECT_DIR$/chapter-12/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-12/src/main/java/org/tlh/springboot/Chapter12Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-12/src/main/java/org/tlh/springboot/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-12/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-12/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-12/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-13/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-1/chapter-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-1/chapter-1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-2/chapter-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-2/chapter-2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-3/chapter-3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-3/chapter-3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-4/chapter-4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-4/chapter-4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,6 +39,8 @@
     <ignored path="$PROJECT_DIR$/chapter-9/target/" />
     <ignored path="$PROJECT_DIR$/chapter-10/target/" />
     <ignored path="$PROJECT_DIR$/chapter-11/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-12/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-13/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +73,20 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="170">
+                <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,6 +96,7 @@
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -90,22 +116,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter-7/oauth2/auth-server/pom.xml" />
-        <option value="$PROJECT_DIR$/chapter-7/oauth2/auth-server/src/main/java/org/tlh/oauth/OauthServerApplication.java" />
-        <option value="$PROJECT_DIR$/chapter-7/oauth2/auth-server/src/main/java/org/tlh/oauth/AuthServerApplication.java" />
-        <option value="$PROJECT_DIR$/chapter-7/oauth2/order-service/pom.xml" />
-        <option value="$PROJECT_DIR$/chapter-7/oauth2/product-service/pom.xml" />
-        <option value="$PROJECT_DIR$/chapter-7/oauth2/auth-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/chapter-7/oauth2/order-service/src/main/java/org/tlh/oauth/config/ResourceServerConfig.java" />
-        <option value="$PROJECT_DIR$/chapter-7/oauth2/auth-server/src/main/java/org/tlh/oauth/config/SecurityConfiguration.java" />
         <option value="$PROJECT_DIR$/chapter-7/oauth2/auth-server/src/main/java/org/tlh/oauth/config/AuthorizationServerConfig.java" />
         <option value="$PROJECT_DIR$/chapter-7/oauth2/auth-server-jdbc/src/main/java/org/tlh/oauth/AuthServerJdbcApplication.java" />
         <option value="$PROJECT_DIR$/chapter-7/oauth2/auth-server-jdbc/src/main/java/org/tlh/oauth/service/AuthUserDetailService.java" />
@@ -142,13 +155,21 @@
         <option value="$PROJECT_DIR$/chapter-10/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/chapter-10/src/test/java/org/tlh/log4j2/CsvLoggerTest.java" />
         <option value="$PROJECT_DIR$/chapter-10/src/main/java/org/tlh/log4j2/CsvLogger.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/chapter-11/src/test/java/org/tlh/test/FileTest.java" />
         <option value="$PROJECT_DIR$/chapter-11/src/main/java/org/tlh/thread/task/TestCaseTask.java" />
         <option value="$PROJECT_DIR$/chapter-11/pom.xml" />
         <option value="$PROJECT_DIR$/chapter-11/src/main/java/org/tlh/thread/StartProcess.java" />
         <option value="$PROJECT_DIR$/chapter-11/README.md" />
         <option value="$PROJECT_DIR$/chapter-11/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/chapter-12/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-12/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/chapter-12/src/main/java/org/tlh/springboot/Chapter12Application.java" />
+        <option value="$PROJECT_DIR$/chapter-12/src/main/java/org/tlh/springboot/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/chapter-12/src/main/resources/messages_zh_CN.properties" />
+        <option value="$PROJECT_DIR$/chapter-12/src/main/resources/templates/hello.html" />
+        <option value="$PROJECT_DIR$/chapter-12/src/main/resources/messages.properties" />
+        <option value="$PROJECT_DIR$/chapter-13/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -171,16 +192,19 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="chapter-11" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="chapter-12" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="chapter-11" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="chapter-12" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
@@ -222,22 +246,10 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,32 +260,56 @@
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-11" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-12" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-12" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-12" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -288,6 +324,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -298,242 +339,16 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.24517734" />
   </component>
-  <component name="RunManager" selected="Application.StartProcess">
-    <configuration name="AuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.oauth.AuthServerApplication" />
-      <option name="SHOW_IN_DASHBOARD" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="auth-server" />
-      <envs />
-    </configuration>
-    <configuration name="AuthServerJdbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.oauth.AuthServerJdbcApplication" />
-      <option name="SHOW_IN_DASHBOARD" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="auth-server-jdbc" />
-      <envs />
-    </configuration>
-    <configuration name="Chapter1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.springboot.chaper1.Chapter1Application" />
-      <option name="SHOW_IN_DASHBOARD" value="true" />
-      <module name="chapter-1" />
-      <envs />
-    </configuration>
-    <configuration name="Chapter2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.springboot2.Chapter2Application" />
-      <option name="SHOW_IN_DASHBOARD" value="true" />
-      <module name="chapter-2" />
-      <envs />
-    </configuration>
-    <configuration name="Chapter3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.springboot2.Chapter3Application" />
-      <option name="SHOW_IN_DASHBOARD" value="true" />
-      <module name="chapter-3" />
-      <envs />
-    </configuration>
-    <configuration name="Chapter4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.springboo2.Chapter4Application" />
-      <option name="SHOW_IN_DASHBOARD" value="true" />
-      <module name="chapter-4" />
-      <envs />
-    </configuration>
-    <configuration name="Chapter5Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.springboot.jpa.Chapter5Application" />
-      <option name="SHOW_IN_DASHBOARD" value="true" />
-      <module name="chapter-5" />
-      <envs />
-    </configuration>
-    <configuration name="Chapter6Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.springboot.cache.Chapter6Application" />
-      <option name="SHOW_IN_DASHBOARD" value="true" />
-      <module name="chapter-6" />
-      <envs />
-    </configuration>
-    <configuration name="Chapter8Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.quartz.Chapter8Application" />
-      <option name="SHOW_IN_DASHBOARD" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="chapter-8" />
-      <envs />
-    </configuration>
-    <configuration name="Chapter9Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.rpc.Chapter9Application" />
-      <option name="SHOW_IN_DASHBOARD" value="true" />
-      <module name="chapter-9" />
-      <envs />
-    </configuration>
-    <configuration name="CsvLoggerTest.log" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.tlh.log4j2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="chapter-10" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.tlh.log4j2" />
-      <option name="MAIN_CLASS_NAME" value="org.tlh.log4j2.CsvLoggerTest" />
-      <option name="METHOD_NAME" value="log" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="CsvLoggerTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.tlh.log4j2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="chapter-10" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.tlh.log4j2" />
-      <option name="MAIN_CLASS_NAME" value="org.tlh.log4j2.CsvLoggerTest" />
-      <option name="METHOD_NAME" value="save" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.tlh.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.tlh.test.FileTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="chapter-11" />
-      <envs />
-    </configuration>
-    <configuration name="LombokTest.log" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.tlh.log4j2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="chapter-10" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.tlh.log4j2" />
-      <option name="MAIN_CLASS_NAME" value="org.tlh.log4j2.LombokTest" />
-      <option name="METHOD_NAME" value="log" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="OauthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.oauth.OauthServerApplication" />
-      <option name="SHOW_IN_DASHBOARD" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="oauth-server" />
-      <envs />
-    </configuration>
-    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.oauth.OrderApplication" />
-      <option name="SHOW_IN_DASHBOARD" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="order-service" />
-      <envs />
-    </configuration>
-    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.oauth.ProductApplication" />
-      <option name="SHOW_IN_DASHBOARD" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="product-service" />
-      <envs />
-    </configuration>
-    <configuration name="StartProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.tlh.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.tlh.thread.StartProcess" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="chapter-11" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.Chapter12Application">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -543,36 +358,76 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+    <configuration name="AuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="auth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.oauth.AuthServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+    <configuration name="AuthServerJdbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="auth-server-jdbc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.oauth.AuthServerJdbcApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SHOW_IN_DASHBOARD" value="true" />
-      <module name="" />
-      <envs />
+    <configuration name="Chapter12Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chapter-12" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.springboot.Chapter12Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="Chapter1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chapter-1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.springboot.chaper1.Chapter1Application" />
+    </configuration>
+    <configuration name="Chapter2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chapter-2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.springboot2.Chapter2Application" />
+    </configuration>
+    <configuration name="Chapter3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chapter-3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.springboot2.Chapter3Application" />
+    </configuration>
+    <configuration name="Chapter4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chapter-4" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.springboo2.Chapter4Application" />
+    </configuration>
+    <configuration name="Chapter5Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chapter-5" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.springboot.jpa.Chapter5Application" />
+    </configuration>
+    <configuration name="Chapter6Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chapter-6" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.springboot.cache.Chapter6Application" />
+    </configuration>
+    <configuration name="Chapter8Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chapter-8" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.quartz.Chapter8Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="Chapter9Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chapter-9" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.rpc.Chapter9Application" />
+    </configuration>
+    <configuration name="OauthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oauth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.oauth.OauthServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.oauth.OrderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.oauth.ProductApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -585,58 +440,42 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
-    <list size="18">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Chapter8Application" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.OauthServerApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.AuthServerApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.OrderApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.ProductApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.AuthServerJdbcApplication" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.Chapter2Application" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.Chapter3Application" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.Chapter5Application" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.Chapter1Application" />
-      <item index="10" class="java.lang.String" itemvalue="Spring Boot.Chapter6Application" />
-      <item index="11" class="java.lang.String" itemvalue="Spring Boot.Chapter4Application" />
-      <item index="12" class="java.lang.String" itemvalue="Spring Boot.Chapter9Application" />
-      <item index="13" class="java.lang.String" itemvalue="JUnit.CsvLoggerTest.log" />
-      <item index="14" class="java.lang.String" itemvalue="JUnit.LombokTest.log" />
-      <item index="15" class="java.lang.String" itemvalue="JUnit.CsvLoggerTest.save" />
-      <item index="16" class="java.lang.String" itemvalue="Application.StartProcess" />
-      <item index="17" class="java.lang.String" itemvalue="Application.FileTest" />
+    <list>
+      <item itemvalue="Spring Boot.Chapter12Application" />
+      <item itemvalue="Spring Boot.Chapter8Application" />
+      <item itemvalue="Spring Boot.OauthServerApplication" />
+      <item itemvalue="Spring Boot.AuthServerApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.AuthServerJdbcApplication" />
+      <item itemvalue="Spring Boot.Chapter2Application" />
+      <item itemvalue="Spring Boot.Chapter3Application" />
+      <item itemvalue="Spring Boot.Chapter5Application" />
+      <item itemvalue="Spring Boot.Chapter1Application" />
+      <item itemvalue="Spring Boot.Chapter6Application" />
+      <item itemvalue="Spring Boot.Chapter4Application" />
+      <item itemvalue="Spring Boot.Chapter9Application" />
     </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StartProcess" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FileTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CsvLoggerTest.save" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LombokTest.log" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CsvLoggerTest.log" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,SHOW_INHERITED" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -675,7 +514,11 @@
       <workItem from="1551621760231" duration="1229000" />
       <workItem from="1553085370385" duration="303000" />
       <workItem from="1553168495527" duration="183000" />
-      <workItem from="1553168859607" duration="4756000" />
+      <workItem from="1553168859607" duration="4887000" />
+      <workItem from="1553217886124" duration="651000" />
+      <workItem from="1553686241722" duration="1806000" />
+      <workItem from="1554012945502" duration="21000" />
+      <workItem from="1554294320139" duration="2365000" />
     </task>
     <task id="LOCAL-00001" summary="1.缓存应用">
       <created>1544878494043</created>
@@ -761,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551622963926</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1.动态改变log4j2.xml文件中的参数(Lookups的使用)">
+      <created>1553175400526</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1553175400526</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -797,81 +647,86 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87704000" />
+    <option name="totallyTimeSpent" value="92678000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="955" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="953" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853025" sideWeight="0.5028612" order="14" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24297924" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53524494" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49101797" sideWeight="0.5" order="15" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3715651" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32616487" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5137724" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22039072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5028612" side_tool="true" weight="0.32853025" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.24297924" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32967034" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24969475" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.53524494" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3297491" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" content_ui="combo" id="Run Dashboard" order="15" weight="0.4909964" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32616487" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713877" weight="0.3715651" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5137395" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23015873" />
+      <window_info anchor="bottom" id="Problems" order="13" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info id="Web" side_tool="true" />
+      <window_info anchor="bottom" id="JProfiler" order="16" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32893157" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="CheckStyle" order="12" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853025" sideWeight="0.5028612" order="14" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24297924" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53524494" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49101797" sideWeight="0.5" order="15" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3715651" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32616487" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5137724" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22039072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info id="Designer" order="6" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713877" visible="true" weight="0.3715651" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5137724" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="CheckStyle" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5028612" side_tool="true" weight="0.32853025" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3297491" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22039072" />
+      <window_info anchor="bottom" id="Problems" order="13" />
+      <window_info anchor="bottom" id="JProfiler" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32616487" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.24297924" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32967034" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" weight="0.24969475" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.53524494" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="bottom" content_ui="combo" id="Run Dashboard" order="15" weight="0.49101797" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -919,7 +774,8 @@
     <MESSAGE value="1.添加log4j2的使用：生成csv文件和指定格式的文件" />
     <MESSAGE value="1.结合lombok简化logger对象的获取，及在配置文件中定义logger需要匹配lombok生成的logger对象" />
     <MESSAGE value="1.并发工具引用，获取线程开始执行和结束时间" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.并发工具引用，获取线程开始执行和结束时间" />
+    <MESSAGE value="1.动态改变log4j2.xml文件中的参数(Lookups的使用)" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.动态改变log4j2.xml文件中的参数(Lookups的使用)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1014,291 +870,33 @@
       </breakpoints-dialog>
       <option name="time" value="25" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0-sources.jar!/org/apache/logging/log4j/core/layout/AbstractLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/commons/commons-csv/1.4/commons-csv-1.4.jar!/org/apache/commons/csv/CSVFormat.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0-sources.jar!/org/apache/logging/log4j/core/appender/rolling/DefaultRolloverStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="81" column="13" lean-forward="false" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0-sources.jar!/org/apache/logging/log4j/core/appender/RollingFileAppender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4063">
-          <caret line="303" column="7" lean-forward="false" selection-start-line="303" selection-start-column="7" selection-end-line="303" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0-sources.jar!/org/apache/logging/log4j/core/StringLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0-sources.jar!/org/apache/logging/log4j/core/layout/PatternLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar!/org/apache/logging/log4j/spi/AbstractLogger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="904" column="16" lean-forward="false" selection-start-line="904" selection-start-column="16" selection-end-line="904" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0-sources.jar!/org/apache/logging/log4j/spi/AbstractLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-803">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0-sources.jar!/org/apache/logging/log4j/core/Layout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="46" column="17" lean-forward="false" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0-sources.jar!/org/apache/logging/log4j/core/layout/AbstractCsvLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-10/src/test/java/org/tlh/log4j2/TextLoggerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/commons/commons-csv/1.4/commons-csv-1.4-sources.jar!/org/apache/commons/csv/CSVFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-650">
-          <caret line="961" column="28" lean-forward="false" selection-start-line="961" selection-start-column="19" selection-end-line="961" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0-sources.jar!/org/apache/logging/log4j/core/layout/AbstractStringLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="298" column="0" lean-forward="false" selection-start-line="298" selection-start-column="0" selection-end-line="298" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0-sources.jar!/org/apache/logging/log4j/core/layout/CsvParameterLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="67" column="35" lean-forward="false" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/projectlombok/lombok/1.16.20/lombok-1.16.20.jar!/lombok/extern/log4j/Log4j2.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/projectlombok/lombok/1.16.20/lombok-1.16.20-sources.jar!/lombok/extern/slf4j/Slf4j.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="60" column="18" lean-forward="false" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/projectlombok/lombok/1.16.20/lombok-1.16.20-sources.jar!/lombok/extern/log4j/Log4j2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="61" column="18" lean-forward="false" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-10/src/test/java/org/tlh/log4j2/LombokTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-10/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-10/src/test/java/org/tlh/log4j2/CsvLoggerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-10/src/main/java/org/tlh/log4j2/CsvLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-10/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="1340" column="25" lean-forward="true" selection-start-line="1340" selection-start-column="25" selection-end-line="1340" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="290" column="19" lean-forward="false" selection-start-line="290" selection-start-column="19" selection-end-line="290" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="221">
-            <caret line="13" column="84" lean-forward="false" selection-start-line="13" selection-start-column="84" selection-end-line="13" selection-end-column="84" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0-sources.jar!/org/apache/logging/log4j/core/appender/FileAppender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-11/src/test/java/org/tlh/test/FileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0-sources.jar!/org/apache/logging/log4j/ThreadContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="241" column="23" lean-forward="false" selection-start-line="241" selection-start-column="23" selection-end-line="241" selection-end-column="23" />
-          <folding>
-            <element signature="e#7726#7727#0" expanded="false" />
-            <element signature="e#7768#7769#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/${sys:filename}">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2-sources.jar!/org/apache/logging/log4j/core/config/plugins/util/PluginManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="110" column="15" lean-forward="false" selection-start-line="110" selection-start-column="15" selection-end-line="110" selection-end-column="15" />
-          <folding>
-            <element signature="e#3815#3816#0" expanded="false" />
-            <element signature="e#3869#3870#0" expanded="false" />
-            <element signature="e#4056#4057#0" expanded="false" />
-            <element signature="e#4086#4087#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0-sources.jar!/org/apache/logging/log4j/core/lookup/StrSubstitutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="140" column="27" lean-forward="false" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="27" />
-          <folding>
-            <element signature="e#56045#56046#0" expanded="false" />
-            <element signature="e#56097#56098#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-11/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2-sources.jar!/org/apache/logging/log4j/core/lookup/AbstractConfigurationAwareLookup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding />
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2-sources.jar!/org/apache/logging/log4j/core/impl/ContextDataInjectorFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="39" />
-          <folding />
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2-sources.jar!/org/apache/logging/log4j/core/impl/ThreadContextDataInjector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-715">
-          <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-          <folding />
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2-sources.jar!/org/apache/logging/log4j/core/lookup/ContextMapLookup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="41" />
-          <folding>
-            <element signature="e#1980#1981#0" expanded="false" />
-            <element signature="e#2028#2029#0" expanded="false" />
-          </folding>
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1306,39 +904,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="72" column="51" lean-forward="true" selection-start-line="72" selection-start-column="51" selection-end-line="72" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2-sources.jar!/org/apache/logging/log4j/core/lookup/AbstractLookup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2-sources.jar!/org/apache/logging/log4j/core/lookup/EnvironmentLookup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2-sources.jar!/org/apache/logging/log4j/core/lookup/Interpolator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2-sources.jar!/org/apache/logging/log4j/core/lookup/JavaLookup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1346,15 +939,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2-sources.jar!/org/apache/logging/log4j/core/lookup/MainMapLookup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1362,14 +953,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="23" column="78" lean-forward="true" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2-sources.jar!/org/apache/logging/log4j/core/lookup/DateLookup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding>
             <element signature="e#1840#1841#0" expanded="true" />
             <element signature="e#1906#1907#0" expanded="true" />
@@ -1381,50 +971,276 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="60" column="57" lean-forward="true" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter-11/src/main/java/org/tlh/thread/task/TestCaseTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
-          <caret line="47" column="46" lean-forward="false" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
-          <folding />
+          <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/${date:MM-dd-yyyy}.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-11/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/${date:MM-dd-yyyy}.txt" />
     <entry file="file://$PROJECT_DIR$/chapter-11/src/main/java/org/tlh/thread/StartProcess.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="19" column="52" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="19" selection-end-column="52" />
-          <folding />
+          <caret line="19" column="52" selection-start-line="18" selection-start-column="8" selection-end-line="19" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter-11/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding />
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-11/src/test/java/org/tlh/test/FileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="1380" column="6" lean-forward="true" selection-start-line="1380" selection-start-column="6" selection-end-line="1380" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/nio/file/Watchable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759">
+          <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="594" column="76" lean-forward="true" selection-start-line="594" selection-start-column="76" selection-end-line="594" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext/zipfs.jar!/com/sun/nio/zipfs/ZipFileStore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/nio/file/FileStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/rmi/server/RemoteServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/rmi/registry/LocateRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-11/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar!/okhttp3/OkHttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0-sources.jar!/okhttp3/internal/ws/RealWebSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1087">
+          <caret line="183" column="9" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0-sources.jar!/okhttp3/Dispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0-sources.jar!/okhttp3/internal/platform/Platform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="110" column="32" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0-sources.jar!/okhttp3/internal/connection/StreamAllocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="256" column="17" selection-start-line="256" selection-start-column="17" selection-end-line="256" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0-sources.jar!/okhttp3/internal/connection/RealConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="135" column="63" lean-forward="true" selection-start-line="135" selection-start-column="63" selection-end-line="135" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0-sources.jar!/okhttp3/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0-sources.jar!/okhttp3/internal/http/RetryAndFollowUpInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="205" column="57" lean-forward="true" selection-start-line="205" selection-start-column="57" selection-end-line="205" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0-sources.jar!/okhttp3/OkHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="449" column="17" selection-start-line="449" selection-start-column="17" selection-end-line="449" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0-sources.jar!/okhttp3/ConnectionSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3751">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0-sources.jar!/okhttp3/internal/http2/Http2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1779">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0-sources.jar!/okhttp3/internal/http2/Http2Codec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0-sources.jar!/okhttp3/internal/http2/Http2Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13934">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-11/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="7" selection-start-column="7" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-12/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-12/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-12/src/main/java/org/tlh/springboot/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-12/src/main/resources/messages_zh_CN.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-12/src/main/resources/templates/hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="51" />
+          <folding>
+            <element signature="e#2#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-12/src/main/resources/messages.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-12/src/main/java/org/tlh/springboot/Chapter12Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-13/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="170">
+            <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
