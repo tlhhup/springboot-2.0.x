@@ -17,7 +17,39 @@
 	11. openid:提供对openid的支持
 2. CSRF支持
 	1. 如果使用thymeleaf作为模版引擎或者Spring mvc的标签，将在退出的时候自动添加该支持
-	2. 其他情况可以通过在logou的form表单中添加隐藏域来实现csrf token的添加
+
+			<!DOCTYPE html>
+			<html lang="en" xmlns:th="http://www.thymeleaf.org">
+			<head>
+			    <meta charset="UTF-8">
+			    <title>自定义登陆界面</title>
+			</head>
+			<body>
+			    <form th:action="@{/customLogin}" method="post">
+			        <table>
+			            <tr>
+			                <td>用户名：</td>
+			                <td>
+			                    <input name="username">
+			                </td>
+			            </tr>
+			            <tr>
+			                <td>密码：</td>
+			                <td>
+			                    <input name="password" type="password">
+			                </td>
+			            </tr>
+			            <tr>
+			                <td colspan="2">
+			                    <input type="submit" value="登陆">
+			                    <input type="reset" value="重置">
+			                </td>
+			            </tr>
+			        </table>
+			    </form>
+			</body>
+			</html>
+	2. 其他情况可以通过在logou的form表单中添加隐藏域来实现csrf token的添加,CsrfFilter过滤器中会在request中添加这两个属性
 
 			<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/> 
 3. 核心接口

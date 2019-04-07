@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f490986d-0bda-44aa-b8b4-f80b63cd6b49" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter-13/src/main/java/org/tlh/springboot/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-13/src/main/java/org/tlh/springboot/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter-13/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-13/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter-13/src/main/resources/templates/customLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-13/src/main/resources/templates/customLogin.html" afterDir="false" />
-    </list>
+    <list default="true" id="f490986d-0bda-44aa-b8b4-f80b63cd6b49" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/chapter-1/target/" />
@@ -61,81 +56,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter-13/src/main/java/org/tlh/springboot/config/WebSecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CsrfFilter.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/csrf/CsrfFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="286">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilterChainProxy.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/FilterChainProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="310" selection-start-line="310" selection-end-line="310" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter-13/src/main/resources/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="45" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customLogin.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="customLogin.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter-13/src/main/resources/templates/customLogin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractAuthenticationProcessingFilter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="310" selection-start-line="310" selection-end-line="310" />
-              <folding>
-                <element signature="e#15260#15261#0" expanded="true" />
-                <element signature="e#15295#15296#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsernamePasswordAuthenticationFilter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityContextPersistenceFilter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="102">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -222,8 +156,8 @@
         <option value="$PROJECT_DIR$/chapter-13/src/main/java/org/tlh/springboot/config/WebMvcConfiguration.java" />
         <option value="$PROJECT_DIR$/chapter-13/src/main/java/org/tlh/springboot/controller/UserController.java" />
         <option value="$PROJECT_DIR$/chapter-13/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/chapter-13/src/main/resources/templates/customLogin.html" />
         <option value="$PROJECT_DIR$/chapter-13/src/main/java/org/tlh/springboot/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/chapter-13/src/main/resources/templates/customLogin.html" />
       </list>
     </option>
   </component>
@@ -631,7 +565,7 @@
       <workItem from="1554012945502" duration="21000" />
       <workItem from="1554294320139" duration="3098000" />
       <workItem from="1554619262885" duration="18687000" />
-      <workItem from="1554648487251" duration="1316000" />
+      <workItem from="1554648487251" duration="1568000" />
     </task>
     <task id="LOCAL-00001" summary="1.缓存应用">
       <created>1544878494043</created>
@@ -738,7 +672,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554643140406</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="1.添加csrf支持&#10;2.界面使用thymeleaf模版引擎时，会自动添加csrf的token在请求参数中">
+      <created>1554649877190</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1554649877190</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -774,7 +715,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113414000" />
+    <option name="totallyTimeSpent" value="113666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="953" extended-state="0" />
@@ -802,7 +743,7 @@
       <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49713877" weight="0.3715651" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.5126051" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25946277" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25946277" />
       <window_info anchor="bottom" id="Run with VisualVM" order="0" />
       <window_info anchor="bottom" id="Problems" order="15" />
       <window_info anchor="right" id="Bean Validation" order="8" />
@@ -914,65 +855,12 @@
     <MESSAGE value="1.动态改变log4j2.xml文件中的参数(Lookups的使用)" />
     <MESSAGE value="1.thymeLeaf国际化处理" />
     <MESSAGE value="1.Spring boot集成Spring security应用&#10;2.自定义认证界面&#10;3.方法级别权限控制&#10;4.源码分析：认证和授权流程" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.Spring boot集成Spring security应用&#10;2.自定义认证界面&#10;3.方法级别权限控制&#10;4.源码分析：认证和授权流程" />
+    <MESSAGE value="1.添加csrf支持&#10;2.界面使用thymeleaf模版引擎时，会自动添加csrf的token在请求参数中" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.添加csrf支持&#10;2.界面使用thymeleaf模版引擎时，会自动添加csrf的token在请求参数中" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-config/5.0.8.RELEASE/spring-security-config-5.0.8.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java</url>
-          <line>500</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-core/5.0.8.RELEASE/spring-security-core-5.0.8.RELEASE-sources.jar!/org/springframework/security/access/vote/AffirmativeBased.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.java</url>
-          <line>195</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
-          <line>896</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.java</url>
-          <line>211</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java</url>
-          <line>69</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.java</url>
-          <line>310</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/FilterChainProxy.java</url>
-          <line>310</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.java</url>
-          <line>76</line>
-          <properties />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/csrf/CsrfFilter.java</url>
           <line>87</line>
@@ -1026,13 +914,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/authentication/www/BasicAuthenticationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -1318,13 +1199,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-13/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -1378,27 +1252,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-13/src/main/java/org/tlh/springboot/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-13/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/csrf/CsrfFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="286">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-13/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter-13/src/main/resources/templates/customLogin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-13/src/main/java/org/tlh/springboot/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
