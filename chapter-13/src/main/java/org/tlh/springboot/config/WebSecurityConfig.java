@@ -37,9 +37,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             .formLogin()//设置表单登陆
             .loginPage("/customLogin")//设置登陆界面及处理登陆请求、退出的URL地址
             //.successForwardUrl("/index")//设置之后，授权成功之后会通过转发的方式实现跳转，请求方式还是为POST，所以需要编写一个controller进行特殊处理
-            .permitAll()//
-            .and()
-            .csrf()
-            .disable();
+            .permitAll();//
     }
 }
