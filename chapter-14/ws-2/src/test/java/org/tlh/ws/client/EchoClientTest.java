@@ -15,7 +15,7 @@ public class EchoClientTest {
     @Test
     public void echo() throws IOException {
         EchoClient echoClient = new EchoClient();
-        echoClient.setDefaultUri("http://localhost:8080");
+        echoClient.setDefaultUri("http://localhost:8080/services");
         echoClient.setRequest(new ClassPathResource("echoRequest.xml"));
 
         echoClient.echo();
