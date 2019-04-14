@@ -244,6 +244,10 @@ Spring对webservice的支持，其开发流程类似Spring mvc的开发流程.
 	9. EndpointExceptionResolver：异常处理器
 	10. WsConfigurerAdapter：基于Java config来定制ws的行为
 	11. @EnableWs：基于Java config方式来配置ws
+	12. **流程**：
+		1. client端通过将消息发送到server的服务器(**发送的地址为MessageDispatcher对外暴露的地址**)
+		2. server接受到请求后，根据请求中的命名空间和请求调用的方法找到对应的endpoint
+		3. 由adapter负责endpoint的执行
 3. 处理器支持的接受的数据类型
 	1. RequestPayload：将request payload绑定到方法参数中
 

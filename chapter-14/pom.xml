@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>ws-1</module>
+        <module>ws-2</module>
+        <module>ws-3</module>
     </modules>
 
 

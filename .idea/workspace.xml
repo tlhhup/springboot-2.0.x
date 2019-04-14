@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ws-1:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f490986d-0bda-44aa-b8b4-f80b63cd6b49" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter-14/ws-1/src/test/java/org/tlh/ws/endpoints/HolidayEndpointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/config/EchoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/endpoints/EchoEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/service/EchoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/service/impl/EchoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-1/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-1/src/main/resources/xsd/echo.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-2/src/main/java/org/tlh/ws/client/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-2/src/main/java/org/tlh/ws/client/HolidayClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-2/src/main/resources/HolidayRequest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-2/src/main/resources/echoRequest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-2/src/test/java/org/tlh/ws/client/EchoClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-2/src/test/java/org/tlh/ws/test/HolidayClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/WsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/config/WsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/endpoints/EchoEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/service/EchoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/service/impl/EchoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-3/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-14/ws-3/src/main/resources/request/echo.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-14/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-14/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-14/ws-1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-14/ws-1/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter-14/ws-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-14/ws-1/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,6 +59,8 @@
     <ignored path="$PROJECT_DIR$/chapter-13/target/" />
     <ignored path="$PROJECT_DIR$/chapter-14/target/" />
     <ignored path="$PROJECT_DIR$/chapter-14/ws-1/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-14/ws-2/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-14/ws-3/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,54 +93,17 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HolidayEndpoint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/endpoints/HolidayEndpoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HolidayEndpointTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/test/java/org/tlh/ws/endpoints/HolidayEndpointTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="50" column="70" selection-start-line="50" selection-start-column="70" selection-end-line="50" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
         <option value="Arquillian JUnit Test Class" />
-        <option value="Interface" />
         <option value="HTML File" />
-        <option value="Class" />
+        <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -131,27 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter-9/src/main/java/org/tlh/rpc/core/RpcClientRegistor.java" />
-        <option value="$PROJECT_DIR$/chapter-9/src/main/java/org/tlh/rpc/core/RpcClient.java" />
-        <option value="$PROJECT_DIR$/chapter-9/src/main/java/org/tlh/rpc/core/EnableRpcClients.java" />
-        <option value="$PROJECT_DIR$/chapter-9/src/main/java/org/tlh/rpc/service/UserService.java" />
-        <option value="$PROJECT_DIR$/chapter-9/src/main/java/org/tlh/rpc/Chapter9Application.java" />
-        <option value="$PROJECT_DIR$/chapter-9/src/main/java/org/tlh/rpc/core/RpcClientFactory.java" />
-        <option value="$PROJECT_DIR$/chapter-9/src/test/java/org/tlh/rpc/service/UserServiceTest.java" />
-        <option value="$PROJECT_DIR$/chapter-9/pom.xml" />
-        <option value="$PROJECT_DIR$/chapter-9/src/main/java/org/tlh/rpc/core/RpcClientRegistrar.java" />
-        <option value="$PROJECT_DIR$/chapter-9/src/main/java/org/tlh/rpc/service/RoleService.java" />
-        <option value="$PROJECT_DIR$/chapter-9/src/test/java/org/tlh/rpc/service/RoleServiceTest.java" />
-        <option value="$PROJECT_DIR$/chapter-10/src/test/java/org/tlh/log4j2/TextLoggerTest.java" />
-        <option value="$PROJECT_DIR$/chapter-10/src/test/java/org/tlh/log4j2/LombokTest.java" />
-        <option value="$PROJECT_DIR$/chapter-10/pom.xml" />
-        <option value="$PROJECT_DIR$/chapter-10/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/chapter-10/src/test/java/org/tlh/log4j2/CsvLoggerTest.java" />
-        <option value="$PROJECT_DIR$/chapter-10/src/main/java/org/tlh/log4j2/CsvLogger.java" />
-        <option value="$PROJECT_DIR$/chapter-11/src/test/java/org/tlh/test/FileTest.java" />
-        <option value="$PROJECT_DIR$/chapter-11/src/main/java/org/tlh/thread/task/TestCaseTask.java" />
-        <option value="$PROJECT_DIR$/chapter-11/pom.xml" />
-        <option value="$PROJECT_DIR$/chapter-11/src/main/java/org/tlh/thread/StartProcess.java" />
         <option value="$PROJECT_DIR$/chapter-11/README.md" />
         <option value="$PROJECT_DIR$/chapter-11/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/chapter-12/pom.xml" />
@@ -174,14 +148,35 @@
         <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/webapp/WEB-INF/wsdl.xml" />
         <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/service/HumanResourceService.java" />
         <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/service/impl/HumanResourceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/endpoints/HolidayEndpoint.java" />
         <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/webapp/WEB-INF/hr.xsd" />
         <option value="$PROJECT_DIR$/chapter-14/pom.xml" />
         <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/webapp/WEB-INF/spring-ws-servlet.xml" />
         <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/resources/spring-ws-servlet.xml" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-1/pom.xml" />
         <option value="$PROJECT_DIR$/chapter-14/ws-1/src/test/java/org/tlh/ws/endpoints/HolidayEndpointTest.java" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-2/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-2/src/test/java/org/tlh/ws/test/HolidayClientTest.java" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-2/src/main/resources/HolidayRequest.xml" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/service/EchoService.java" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/endpoints/EchoEndpoint.java" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/service/impl/EchoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/resources/xsd/echo.xsd" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/config/EchoConfig.java" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-2/src/main/resources/echoRequest.xml" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-2/src/main/java/org/tlh/ws/client/EchoClient.java" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/endpoints/HolidayEndpoint.java" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-1/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/WsApplication.java" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/service/EchoService.java" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/service/impl/EchoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/endpoints/EchoEndpoint.java" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-3/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/config/EchoServletInitializer.java" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-3/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/config/WsConfig.java" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-2/src/test/java/org/tlh/ws/client/EchoClientTest.java" />
+        <option value="$PROJECT_DIR$/chapter-14/ws-2/src/main/java/org/tlh/ws/client/HolidayClient.java" />
       </list>
     </option>
   </component>
@@ -190,6 +185,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -201,23 +203,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ws-1 Spring-WS Application" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ws-1 Spring-WS Application" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ws-1 Spring-WS Application" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.ws:spring-ws-test:3.0.0.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -277,7 +263,93 @@
           <expand>
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-14" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-14" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-14" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-14" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-14" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-14" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-14" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
+              <item name="endpoints" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-14" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-14" type="462c0819:PsiDirectoryNode" />
+              <item name="ws-3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -305,19 +377,24 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.tlh.ws.client" />
+      <recent name="org.tlh.ws.test" />
       <recent name="org.tlh.ws.endpoints" />
       <recent name="org.tlh.rpc.service" />
       <recent name="org.tlh.springboot.cache.service" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.tlh.oauth.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chapter-14/ws-3/src/main/resources/request" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/chapter-14/ws-1/src/main/resources/xsd" />
@@ -342,26 +419,26 @@
     </option>
     <option name="contentProportion" value="0.24517734" />
   </component>
-  <component name="RunManager" selected="JUnit.HolidayEndpointTest.handleHolidayRequest">
+  <component name="RunManager" selected="JUnit.EchoClientTest.echo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="HolidayEndpointTest.handleHolidayRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ws-1" />
+    <configuration name="EchoClientTest.echo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ws-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.tlh.ws.endpoints.*" />
+          <option name="PATTERN" value="org.tlh.ws.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.tlh.ws.endpoints" />
-      <option name="MAIN_CLASS_NAME" value="org.tlh.ws.endpoints.HolidayEndpointTest" />
-      <option name="METHOD_NAME" value="handleHolidayRequest" />
+      <option name="PACKAGE_NAME" value="org.tlh.ws.client" />
+      <option name="MAIN_CLASS_NAME" value="org.tlh.ws.client.EchoClientTest" />
+      <option name="METHOD_NAME" value="echo" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -402,16 +479,6 @@
       <module name="chapter-12" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.springboot.Chapter12Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
-    </configuration>
-    <configuration name="Chapter13Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="chapter-13" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.tlh.springboot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.springboot.Chapter13Application" />
     </configuration>
     <configuration name="Chapter1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="chapter-1" />
@@ -461,6 +528,11 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.oauth.ProductApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
+    <configuration name="WsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ws-3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.ws.WsApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -483,7 +555,113 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="ws-1" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.39" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ws-1:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_springboot-2_0_x" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65405" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="DEBUG_PORT" value="65406" />
+        <option name="visualVMId" value="69558020799952" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ws-1:war" />
+        </option>
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Spring Boot.WsApplication" />
       <item itemvalue="Spring Boot.Chapter12Application" />
       <item itemvalue="Spring Boot.Chapter8Application" />
       <item itemvalue="Spring Boot.OauthServerApplication" />
@@ -498,13 +676,12 @@
       <item itemvalue="Spring Boot.Chapter6Application" />
       <item itemvalue="Spring Boot.Chapter4Application" />
       <item itemvalue="Spring Boot.Chapter9Application" />
-      <item itemvalue="Spring Boot.Chapter13Application" />
-      <item itemvalue="JUnit.HolidayEndpointTest.handleHolidayRequest" />
+      <item itemvalue="Tomcat Server.ws-1" />
+      <item itemvalue="JUnit.EchoClientTest.echo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HolidayEndpointTest.handleHolidayRequest" />
-        <item itemvalue="Spring Boot.Chapter13Application" />
+        <item itemvalue="JUnit.EchoClientTest.echo" />
       </list>
     </recent_temporary>
   </component>
@@ -568,7 +745,7 @@
       <workItem from="1555219956060" duration="544000" />
       <workItem from="1555220529912" duration="1327000" />
       <workItem from="1555222197275" duration="3156000" />
-      <workItem from="1555227813858" duration="261000" />
+      <workItem from="1555227813858" duration="14396000" />
     </task>
     <task id="LOCAL-00001" summary="1.缓存应用">
       <created>1544878494043</created>
@@ -710,53 +887,60 @@
       <option name="project" value="LOCAL" />
       <updated>1555227187846</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="1.添加服务端测试">
+      <created>1555228243437</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1555228243437</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CsvLoggerTest_log - 2019.02.19 at 22h 37m 27s.xml">
-      <configuration name="CsvLoggerTest.log" configurationId="JUnit" />
+    <history-entry file="EchoClientTest_echo - 2019.04.14 at 21h 53m 34s.xml">
+      <configuration name="EchoClientTest.echo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvLoggerTest_log - 2019.02.19 at 22h 40m 11s.xml">
-      <configuration name="CsvLoggerTest.log" configurationId="JUnit" />
+    <history-entry file="EchoClientTest_echo - 2019.04.14 at 21h 57m 55s.xml">
+      <configuration name="EchoClientTest.echo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvLoggerTest_log - 2019.02.19 at 22h 40m 34s.xml">
-      <configuration name="CsvLoggerTest.log" configurationId="JUnit" />
+    <history-entry file="EchoClientTest_echo - 2019.04.14 at 22h 01m 43s.xml">
+      <configuration name="EchoClientTest.echo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvLoggerTest_log - 2019.02.19 at 22h 40m 44s.xml">
-      <configuration name="CsvLoggerTest.log" configurationId="JUnit" />
+    <history-entry file="EchoClientTest_echo - 2019.04.14 at 22h 04m 31s.xml">
+      <configuration name="EchoClientTest.echo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvLoggerTest_save - 2019.02.19 at 23h 01m 46s.xml">
-      <configuration name="CsvLoggerTest.save" configurationId="JUnit" />
+    <history-entry file="EchoClientTest_echo - 2019.04.14 at 22h 07m 38s.xml">
+      <configuration name="EchoClientTest.echo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvLoggerTest_save - 2019.02.19 at 23h 02m 20s.xml">
-      <configuration name="CsvLoggerTest.save" configurationId="JUnit" />
+    <history-entry file="EchoClientTest_echo - 2019.04.14 at 22h 09m 40s.xml">
+      <configuration name="EchoClientTest.echo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LombokTest_log - 2019.02.19 at 22h 46m 07s.xml">
-      <configuration name="LombokTest.log" configurationId="JUnit" />
+    <history-entry file="EchoClientTest_echo - 2019.04.14 at 22h 10m 38s.xml">
+      <configuration name="EchoClientTest.echo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LombokTest_log - 2019.02.19 at 22h 52m 06s.xml">
-      <configuration name="LombokTest.log" configurationId="JUnit" />
+    <history-entry file="EchoClientTest_echo - 2019.04.14 at 22h 12m 12s.xml">
+      <configuration name="EchoClientTest.echo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LombokTest_log - 2019.02.19 at 22h 56m 06s.xml">
-      <configuration name="LombokTest.log" configurationId="JUnit" />
+    <history-entry file="EchoClientTest_echo - 2019.04.14 at 22h 16m 00s.xml">
+      <configuration name="EchoClientTest.echo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LombokTest_log - 2019.02.19 at 22h 57m 42s.xml">
-      <configuration name="LombokTest.log" configurationId="JUnit" />
+    <history-entry file="EchoClientTest_echo - 2019.04.14 at 22h 16m 49s.xml">
+      <configuration name="EchoClientTest.echo" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126175000" />
+    <option name="totallyTimeSpent" value="140310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="953" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="10" />
       <window_info anchor="right" id="RestServices" order="0" />
       <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.5028612" side_tool="true" weight="0.32853025" />
-      <window_info anchor="right" id="Maven Projects" order="10" weight="0.41880342" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32893157" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.36568987" />
       <window_info anchor="bottom" id="Database Changes" order="19" show_stripe_button="false" />
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
@@ -764,16 +948,17 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.24969475" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.53524494" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.5330132" />
       <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32893157" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Java Enterprise" order="18" />
       <window_info anchor="bottom" content_ui="combo" id="Run Dashboard" order="20" weight="0.4909964" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32533014" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49713877" weight="0.37094837" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49713877" visible="true" weight="0.37094837" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.5126051" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26984128" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26984128" />
       <window_info anchor="bottom" id="Run with VisualVM" order="0" />
       <window_info anchor="bottom" id="Problems" order="15" />
       <window_info anchor="right" id="Bean Validation" order="8" />
@@ -786,7 +971,6 @@
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32893157" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32893157" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="2" />
@@ -795,47 +979,48 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="10" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="11" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32893157" />
       <window_info id="Designer" order="7" />
-      <window_info anchor="bottom" content_ui="combo" id="Run Dashboard" order="20" weight="0.4909964" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Spring" order="13" />
       <window_info id="Image Layers" order="5" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49713877" weight="0.37094837" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49713877" weight="0.37094837" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.5126051" />
-      <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.5126051" />
+      <window_info anchor="bottom" id="Docker" order="18" show_stripe_button="false" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
-      <window_info anchor="bottom" id="CheckStyle" order="14" />
-      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.5028612" side_tool="true" weight="0.32853025" />
-      <window_info anchor="right" id="RestServices" order="0" />
+      <window_info anchor="bottom" id="CheckStyle" order="15" />
+      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.5028612" side_tool="true" weight="0.32853025" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32893157" />
+      <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="1" />
+      <window_info anchor="bottom" id="Problems" order="16" />
+      <window_info anchor="bottom" id="Java Enterprise" order="19" />
+      <window_info anchor="bottom" id="JProfiler" order="22" />
+      <window_info anchor="bottom" id="Database Changes" order="20" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32533014" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.36568987" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24969475" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32893157" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26984128" />
       <window_info anchor="right" id="Database" order="5" weight="0.32967034" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="0" />
-      <window_info anchor="bottom" id="Problems" order="15" />
-      <window_info anchor="bottom" id="Java Enterprise" order="18" />
-      <window_info anchor="bottom" id="JProfiler" order="21" />
-      <window_info anchor="bottom" id="Database Changes" order="19" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32533014" />
-      <window_info anchor="right" id="Maven Projects" order="10" weight="0.24297924" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24420024" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32893157" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="1" />
-      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="2" />
+      <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24969475" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32893157" />
+      <window_info anchor="right" id="RestServices" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.5330132" />
       <window_info anchor="right" id="Bean Validation" order="8" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.53524494" />
+      <window_info anchor="bottom" content_ui="combo" id="Run Dashboard" order="21" visible="true" weight="0.4909964" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -891,18 +1076,56 @@
     <MESSAGE value="1.Spring Web Service入门案例" />
     <MESSAGE value="1.使用tang工具通过xml文件生成xsd文件" />
     <MESSAGE value="1.ws的核心接口&#10;2.ws的执行流程&#10;3.处理器方法支持的参数类型和返回的数据类型" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.ws的核心接口&#10;2.ws的执行流程&#10;3.处理器方法支持的参数类型和返回的数据类型" />
+    <MESSAGE value="1.添加服务端测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.添加服务端测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/endpoints/EchoEndpoint.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="38" />
+      <option name="time" value="50" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>StreamUtils.copyToString(((RequestFacade) httpServletRequest).getInputStream(),Charset.defaultCharset())</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.apache.catalina.connector.RequestFacade,org.springframework.util.StreamUtils,java.nio.charset.Charset</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((RequestFacade) httpServletRequest).getInputStream()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.apache.catalina.connector.RequestFacade</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((RequestFacade) httpServletRequest).getContentType()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.apache.catalina.connector.RequestFacade</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((RequestFacade) httpServletRequest).getMethod()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.apache.catalina.connector.RequestFacade</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>saajMessage.getSOAPBody()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>CsrfToken.class.getName()</expression-string>
         <language-id>JAVA</language-id>
@@ -923,384 +1146,393 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>request.getRequestURI()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>request.getMethod()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>request.getContextPath()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/FilterChainProxy.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/com/sun/xml/internal/messaging/saaj/soap/impl/ElementImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        <state relative-caret-position="105">
+          <caret line="984" selection-start-line="984" selection-end-line="984" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.java">
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/xalan/xalan/2.6.0/xalan-2.6.0.jar!/org/apache/xalan/transformer/TransformerIdentityImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="121">
+          <caret line="506" selection-start-line="506" selection-end-line="506" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/csrf/LazyCsrfTokenRepository.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/org/xml/sax/helpers/XMLFilterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        <state relative-caret-position="121">
+          <caret line="552" selection-start-line="552" selection-end-line="552" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/csrf/DefaultCsrfToken.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/com/sun/org/apache/xerces/internal/dom/CoreDocumentImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="-5169">
+          <caret line="1628" column="34" selection-start-line="1628" selection-start-column="34" selection-end-line="1628" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-13/src/main/java/org/tlh/springboot/config/WebSecurityConfig.java">
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="388">
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-13/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/service/EchoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="45" />
+        <state relative-caret-position="238">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-13/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-13/src/main/resources/templates/customLogin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="11" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/security/spring-security-web/5.0.8.RELEASE/spring-security-web-5.0.8.RELEASE-sources.jar!/org/springframework/security/web/csrf/CsrfFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
-          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/main/webapp/WEB-INF/wsdl.xml" />
-    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/service/impl/HumanResourceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/service/HumanResourceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/2.1.4.RELEASE/spring-ws-core-2.1.4.RELEASE.jar!/org/springframework/ws/server/endpoint/annotation/Endpoint.class">
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/service/impl/EchoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/2.1.4.RELEASE/spring-ws-core-2.1.4.RELEASE-sources.jar!/org/springframework/ws/server/endpoint/annotation/Endpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/main/resources/xsd/hr.xsd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/main/resources/xsd/echo.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+        <state relative-caret-position="34">
+          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/2.1.4.RELEASE/spring-ws-core-2.1.4.RELEASE-sources.jar!/org/springframework/ws/server/endpoint/annotation/PayloadRoot.java">
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-2/src/main/resources/echoRequest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        <state relative-caret-position="17">
+          <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/2.1.4.RELEASE/spring-ws-core-2.1.4.RELEASE-sources.jar!/org/springframework/ws/server/EndpointMapping.java">
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-2/src/main/java/org/tlh/ws/client/EchoClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        <state relative-caret-position="101">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/2.1.4.RELEASE/spring-ws-core-2.1.4.RELEASE-sources.jar!/org/springframework/ws/server/endpoint/mapping/PayloadRootAnnotationMethodEndpointMapping.java">
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/endpoints/HolidayEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="48" column="55" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE-sources.jar!/org/springframework/core/convert/support/DefaultConversionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1509">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE-sources.jar!/org/springframework/core/convert/ConversionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE-sources.jar!/org/springframework/core/convert/support/GenericConversionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="66" column="7" lean-forward="true" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE-sources.jar!/org/springframework/core/convert/support/ConversionServiceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="27" column="69" lean-forward="true" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-14/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/2.1.4.RELEASE/spring-ws-core-2.1.4.RELEASE-sources.jar!/org/springframework/ws/transport/http/MessageDispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3208">
-          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/2.2.0.RELEASE/spring-ws-core-2.2.0.RELEASE.jar!/org/springframework/ws/transport/http/MessageDispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.0.RELEASE/spring-ws-core-3.0.0.RELEASE.jar!/org/springframework/ws/transport/http/MessageDispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.0.RELEASE/spring-ws-core-3.0.0.RELEASE.jar!/org/springframework/ws/config/web-services-2.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2890">
-          <caret line="170" column="24" selection-start-line="170" selection-start-column="24" selection-end-line="170" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-3110" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.0.RELEASE/spring-ws-core-3.0.0.RELEASE-sources.jar!/org/springframework/ws/WebServiceMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.0.RELEASE/spring-ws-core-3.0.0.RELEASE-sources.jar!/org/springframework/ws/server/endpoint/adapter/PayloadMethodEndpointAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.0.RELEASE/spring-ws-core-3.0.0.RELEASE-sources.jar!/org/springframework/ws/server/endpoint/adapter/DefaultMethodEndpointAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="283" column="25" selection-start-line="283" selection-start-column="25" selection-end-line="283" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.0.RELEASE/spring-ws-core-3.0.0.RELEASE-sources.jar!/org/springframework/ws/server/endpoint/adapter/AbstractMethodEndpointAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.0.RELEASE/spring-ws-core-3.0.0.RELEASE-sources.jar!/org/springframework/ws/server/endpoint/adapter/PayloadEndpointAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.0.RELEASE/spring-ws-core-3.0.0.RELEASE-sources.jar!/org/springframework/ws/server/MessageDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.0.RELEASE/spring-ws-core-3.0.0.RELEASE-sources.jar!/org/springframework/ws/transport/http/WsdlDefinitionHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="133" column="24" selection-start-line="133" selection-start-column="24" selection-end-line="133" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.0.RELEASE/spring-ws-core-3.0.0.RELEASE-sources.jar!/org/springframework/ws/support/WebUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.0.RELEASE/spring-ws-core-3.0.0.RELEASE-sources.jar!/org/springframework/ws/server/EndpointInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.0.RELEASE/spring-ws-core-3.0.0.RELEASE-sources.jar!/org/springframework/ws/server/EndpointAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.0.RELEASE/spring-ws-core-3.0.0.RELEASE-sources.jar!/org/springframework/ws/server/EndpointMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.0.RELEASE/spring-ws-core-3.0.0.RELEASE-sources.jar!/org/springframework/ws/server/EndpointExceptionResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="133" column="25" lean-forward="true" selection-start-line="133" selection-start-column="25" selection-end-line="133" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.0.RELEASE/spring-ws-core-3.0.0.RELEASE-sources.jar!/org/springframework/ws/transport/http/MessageDispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/main/resources/spring-ws-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.0.RELEASE/spring-ws-core-3.0.0.RELEASE-sources.jar!/org/springframework/ws/config/annotation/WsConfigurerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.0.RELEASE/spring-ws-core-3.0.0.RELEASE-sources.jar!/org/springframework/ws/config/annotation/EnableWs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="74" column="18" lean-forward="true" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/webservices/WebServicesAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/webservices/WebServicesProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="17">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="7" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+        <state relative-caret-position="63">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/endpoints/HolidayEndpoint.java">
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="269">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-3/src/main/resources/request/echoRequest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="73" lean-forward="true" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/endpoints/EchoEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="40" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/test/java/org/tlh/ws/endpoints/HolidayEndpointTest.java">
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/service/impl/EchoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="50" column="70" selection-start-line="50" selection-start-column="70" selection-end-line="50" selection-end-column="70" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/service/EchoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/webservices/WebServicesAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.3.RELEASE/spring-ws-core-3.0.3.RELEASE.jar!/org/springframework/ws/config/annotation/WsConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.3.RELEASE/spring-ws-core-3.0.3.RELEASE-sources.jar!/org/springframework/ws/config/annotation/WsConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.3.RELEASE/spring-ws-core-3.0.3.RELEASE-sources.jar!/org/springframework/ws/config/annotation/WsConfigurerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/config/EchoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-xml/3.0.3.RELEASE/spring-xml-3.0.3.RELEASE.jar!/org/springframework/xml/xsd/SimpleXsdSchema.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-xml/3.0.3.RELEASE/spring-xml-3.0.3.RELEASE-sources.jar!/org/springframework/xml/xsd/XsdSchema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE-sources.jar!/org/springframework/core/io/Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-xml/3.0.3.RELEASE/spring-xml-3.0.3.RELEASE-sources.jar!/org/springframework/xml/xsd/SimpleXsdSchema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/webservices/WebServicesProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-3/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/WsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.3.RELEASE/spring-ws-core-3.0.3.RELEASE-sources.jar!/org/springframework/ws/transport/http/support/AbstractAnnotationConfigMessageDispatcherServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.3.RELEASE/spring-ws-core-3.0.3.RELEASE-sources.jar!/org/springframework/ws/transport/http/support/AbstractMessageDispatcherServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE-sources.jar!/org/springframework/web/context/AbstractContextLoaderInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="41" column="74" lean-forward="true" selection-start-line="41" selection-start-column="74" selection-end-line="41" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE-sources.jar!/org/springframework/web/WebApplicationInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="177" column="17" selection-start-line="177" selection-start-column="17" selection-end-line="177" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/config/EchoServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="9" column="79" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/com/sun/org/apache/xerces/internal/dom/AttrNSImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.0.RELEASE/spring-ws-core-3.0.0.RELEASE-sources.jar!/org/springframework/ws/transport/http/MessageDispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4757">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-3/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-3/src/main/resources/request/echo.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.3.RELEASE/spring-ws-core-3.0.3.RELEASE-sources.jar!/org/springframework/ws/transport/http/MessageDispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="332" selection-start-line="332" selection-end-line="332" />
+          <folding>
+            <element signature="e#13300#13301#0" expanded="true" />
+            <element signature="e#13330#13331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/ws/spring-ws-core/3.0.3.RELEASE/spring-ws-core-3.0.3.RELEASE-sources.jar!/org/springframework/ws/soap/saaj/SaajSoapMessageFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/xalan/xalan/2.6.0/xalan-2.6.0.jar!/org/apache/xml/utils/DOMBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/endpoints/EchoEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/main/resources/spring-ws-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/config/WsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-2/src/test/java/org/tlh/ws/client/EchoClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-2/src/test/java/org/tlh/ws/test/HolidayClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-2/src/main/java/org/tlh/ws/client/HolidayClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-5953" />
+          <second_editor />
         </state>
       </provider>
     </entry>

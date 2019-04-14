@@ -24,6 +24,8 @@
         <module name="order-service" />
         <module name="product-service" />
         <module name="ws-1" />
+        <module name="ws-2" />
+        <module name="ws-3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -49,6 +51,8 @@
       <module name="product-service" target="1.8" />
       <module name="springboot-2.0.x" target="1.8" />
       <module name="ws-1" target="1.8" />
+      <module name="ws-2" target="1.8" />
+      <module name="ws-3" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
