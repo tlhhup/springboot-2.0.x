@@ -138,4 +138,87 @@ Spring对webservice的支持，其开发流程类似Spring mvc的开发流程.
 	        </plugins>
     	</build>	
     	
-6. 借助spring-ws-archetype来创建项目，可以自动配置ws的基本组件	
+6. 借助spring-ws-archetype来创建项目，可以自动配置ws的基本组件
+7. [借助trang可以将xml文件自动生成对应的xsd文件](http://www.displayobject.fr/2010/03/08/generate-xsd-from-xml-with-trang/)
+	1. 准备xml文件
+
+			<HolidayRequest xmlns="http://mycompany.com/hr/schemas">
+			    <Holiday>
+			        <StartDate>2006-07-03</StartDate>
+			        <EndDate>2006-07-07</EndDate>
+			    </Holiday>
+			    <Employee>
+			        <Number>42</Number>
+			        <FirstName>Arjen</FirstName>
+			        <LastName>Poutsma</LastName>
+			    </Employee>
+			</HolidayRequest> 	
+	2. 使用tang生成xsd文件
+
+			java -jar tang.jar hr.xml hr.xsd
+	3. 修改生成的xsd文件(简化数据类型的定义)
+		1. 生成的xsd文件
+
+				<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+				        elementFormDefault="qualified"
+				        targetNamespace="http://mycompany.com/hr/schemas"
+				        xmlns:hr="http://mycompany.com/hr/schemas">
+				    <xs:element name="HolidayRequest">
+				        <xs:complexType>
+				            <xs:sequence>
+				                <xs:element ref="hr:Holiday"/>
+				                <xs:element ref="hr:Employee"/>
+				            </xs:sequence>
+				        </xs:complexType>
+				    </xs:element>
+				    <xs:element name="Holiday">
+				        <xs:complexType>
+				            <xs:sequence>
+				                <xs:element ref="hr:StartDate"/>
+				                <xs:element ref="hr:EndDate"/>
+				            </xs:sequence>
+				        </xs:complexType>
+				    </xs:element>
+				    <xs:element name="StartDate" type="xs:NMTOKEN"/>
+				    <xs:element name="EndDate" type="xs:NMTOKEN"/>
+				    <xs:element name="Employee">
+				        <xs:complexType>
+				            <xs:sequence>
+				                <xs:element ref="hr:Number"/>
+				                <xs:element ref="hr:FirstName"/>
+				                <xs:element ref="hr:LastName"/>
+				            </xs:sequence>
+				        </xs:complexType>
+				    </xs:element>
+				    <xs:element name="Number" type="xs:integer"/>
+				    <xs:element name="FirstName" type="xs:NCName"/>
+				    <xs:element name="LastName" type="xs:NCName"/>
+				</xs:schema>
+		2. 修改后的xsd文件 
+
+				<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+				        xmlns:hr="http://mycompany.com/hr/schemas"
+				        elementFormDefault="qualified"
+				        targetNamespace="http://mycompany.com/hr/schemas">
+				    <xs:element name="HolidayRequest">
+				        <xs:complexType>
+				            <xs:all>
+				                <xs:element name="Holiday" type="hr:HolidayType"/> 
+				                <xs:element name="Employee" type="hr:EmployeeType"/> 
+				            </xs:all>
+				        </xs:complexType>
+				    </xs:element>
+				    <xs:complexType name="HolidayType">
+				        <xs:sequence>
+				            <xs:element name="StartDate" type="xs:date"/> 
+				            <xs:element name="EndDate" type="xs:date"/> 
+				        </xs:sequence>
+				    </xs:complexType>
+				    <xs:complexType name="EmployeeType">
+				        <xs:sequence>
+				            <xs:element name="Number" type="xs:integer"/>
+				            <xs:element name="FirstName" type="xs:string"/> 
+				            <xs:element name="LastName" type="xs:string"/> 
+				        </xs:sequence>
+				    </xs:complexType>
+				</xs:schema>
