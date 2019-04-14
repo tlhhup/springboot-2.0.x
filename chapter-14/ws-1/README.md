@@ -54,8 +54,11 @@ Spring对webservice的支持，其开发流程类似Spring mvc的开发流程.
 		
 		    <context:component-scan base-package="org.tlh.ws"/>
 		
-			<!-- 配置处理器映射器 -->
-		    <!-- 开启注解驱动，EndpointMapping 使用PayloadRootAnnotationMethodEndpointMapping来处理请求映射,表示使用@PayloadRoot来定义处理器 -->
+			<!-- 配置基于注解处理器映射器和处理器适配器 -->
+		    <!-- 开启注解驱动，
+		    	EndpointMapping 使用PayloadRootAnnotationMethodEndpointMapping来处理请求映射,表示使用@PayloadRoot来定义处理器 
+	    		EndpointAdapter 使用基于注解的处理器适配器，及添加了@Endpoint注解的表示为处理器
+	    	-->
 		    <sws:annotation-driven/>
 		
 		    <!-- 自动生成wsdl文件 -->
@@ -222,3 +225,192 @@ Spring对webservice的支持，其开发流程类似Spring mvc的开发流程.
 				        </xs:sequence>
 				    </xs:complexType>
 				</xs:schema>
+
+### 核心接口
+
+1. 处理请求流程
+
+![](https://docs.spring.io/spring-ws/docs/3.0.7.RELEASE/reference/images/sequence.png)
+
+2. 核心接口
+	1.	WebServiceMessage
+	2. WebServiceMessageFactory
+	3. MessageContext
+	4. TransportContext
+	5. MessageDispatcher：入口
+	6. EndpointInterceptor：拦截器
+	7. EndpointAdapter：处理器适配器
+	8. EndpointMapping：处理器映射器
+	9. EndpointExceptionResolver：异常处理器
+	10. WsConfigurerAdapter：基于Java config来定制ws的行为
+	11. @EnableWs：基于Java config方式来配置ws
+3. 处理器支持的接受的数据类型
+	1. RequestPayload：将request payload绑定到方法参数中
+
+		<table class="tableblock frame-all grid-all spread">
+		<colgroup>
+		<col style="width: 25%;">
+		<col style="width: 25%;">
+		<col style="width: 25%;">
+		<col style="width: 25%;">
+		</colgroup>
+		<thead>
+		<tr>
+		<th class="tableblock halign-left valign-top">Name</th>
+		<th class="tableblock halign-left valign-top">Supported parameter types</th>
+		<th class="tableblock halign-left valign-top"><code>@RequestPayload</code> required?</th>
+		<th class="tableblock halign-left valign-top">Additional notes</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">TrAX</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock"><code>javax.xml.transform.Source</code> and sub-interfaces (<code>DOMSource</code>, <code>SAXSource</code>, <code>StreamSource</code>, and <code>StAXSource</code>)</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled by default.</p></td>
+		</tr>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">W3C DOM</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock"><code>org.w3c.dom.Element</code></p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled by default</p></td>
+		</tr>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">dom4j</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock"><code>org.dom4j.Element</code></p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled when dom4j is on the classpath.</p></td>
+		</tr>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">JDOM</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock"><code>org.jdom.Element</code></p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled when JDOM is on the classpath.</p></td>
+		</tr>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">XOM</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock"><code>nu.xom.Element</code></p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled when XOM is on the classpath.</p></td>
+		</tr>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">StAX</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock"><code>javax.xml.stream.XMLStreamReader</code> and <code>javax.xml.stream.XMLEventReader</code></p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled when StAX is on the classpath.</p></td>
+		</tr>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">XPath</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Any boolean, double, <code>String</code>, <code>org.w3c.Node</code>, <code>org.w3c.dom.NodeList</code>, or type that can be converted from a <code>String</code> by a Spring 3 <a href="http://static.springsource.org/spring/docs/3.0.x/spring-framework-reference/html/validation.html#core-convert">conversion service</a>, and that is annotated with <code>@XPathParam</code>.</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">No</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled by default, see <a href="#server-xpath-param">the section called <code>XPathParam</code></a>.</p></td>
+		</tr>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Message context</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock"><code>org.springframework.ws.context.MessageContext</code></p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">No</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled by default.</p></td>
+		</tr>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">SOAP</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock"><code>org.springframework.ws.soap.SoapMessage</code>, <code>org.springframework.ws.soap.SoapBody</code>, <code>org.springframework.ws.soap.SoapEnvelope</code>, <code>org.springframework.ws.soap.SoapHeader</code>, and <code>org.springframework.ws.soap.SoapHeaderElement`s when used in combination with the `@SoapHeader</code> annotation.</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">No</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled by default.</p></td>
+		</tr>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">JAXB2</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Any type that is annotated with <code>javax.xml.bind.annotation.XmlRootElement</code>, and <code>javax.xml.bind.JAXBElement</code>.</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled when JAXB2 is on the classpath.</p></td>
+		</tr>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">OXM</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Any type supported by a Spring OXM <a href="http://static.springsource.org/spring/docs/3.0.x/spring-framework-reference/html/oxm.html#d0e26164"><code>Unmarshaller</code></a>.</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled when the <code>unmarshaller</code> attribute of <code>&lt;sws:annotation-driven/&gt;</code> is specified.</p></td>
+		</tr>
+		</tbody>
+		</table>
+	
+	2. XPathParam：将满足该xpath数据绑定到方法参数中,其支持绑定的参数有
+		1. boolean or Boolean
+		2. double or Double
+		3. String
+		4. Node
+		5. NodeList 	
+3. 处理器支持的返回数据类型
+	1. ResponsePayload：将响应放到responsebody中
+
+		<table class="tableblock frame-all grid-all spread">
+		<colgroup>
+		<col style="width: 25%;">
+		<col style="width: 25%;">
+		<col style="width: 25%;">
+		<col style="width: 25%;">
+		</colgroup>
+		<thead>
+		<tr>
+		<th class="tableblock halign-left valign-top">Name</th>
+		<th class="tableblock halign-left valign-top">Supported return types</th>
+		<th class="tableblock halign-left valign-top"><code>@ResponsePayload</code> required?</th>
+		<th class="tableblock halign-left valign-top">Additional notes</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">No response</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock"><code>void</code></p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">No</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled by default.</p></td>
+		</tr>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">TrAX</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock"><code>javax.xml.transform.Source</code> and sub-interfaces (<code>DOMSource</code>, <code>SAXSource</code>, <code>StreamSource</code>, and <code>StAXSource</code>)</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled by default.</p></td>
+		</tr>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">W3C DOM</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock"><code>org.w3c.dom.Element</code></p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled by default</p></td>
+		</tr>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">dom4j</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock"><code>org.dom4j.Element</code></p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled when dom4j is on the classpath.</p></td>
+		</tr>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">JDOM</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock"><code>org.jdom.Element</code></p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled when JDOM is on the classpath.</p></td>
+		</tr>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">XOM</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock"><code>nu.xom.Element</code></p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled when XOM is on the classpath.</p></td>
+		</tr>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">JAXB2</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Any type that is annotated with <code>javax.xml.bind.annotation.XmlRootElement</code>, and <code>javax.xml.bind.JAXBElement</code>.</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled when JAXB2 is on the classpath.</p></td>
+		</tr>
+		<tr>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">OXM</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Any type supported by a Spring OXM <a href="http://static.springsource.org/spring/docs/3.0.x/spring-framework-reference/html/oxm.html#d0e26096"><code>Marshaller</code></a>.</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Yes</p></td>
+		<td class="tableblock halign-left valign-top"><p class="tableblock">Enabled when the <code>marshaller</code> attribute of <code>&lt;sws:annotation-driven/&gt;</code> is specified.</p></td>
+		</tr>
+		</tbody>
+		</table>
+	2. d
+
+
+### 日志处理
+1. org.springframework.ws.server.MessageTracing 日志级别设置为debug和tracing即可
+2. org.springframework.ws.server.MessageTracing.sen 记录发送的数据日志
+3. org.springframework.ws.server.MessageTracing.received 记录接受的数据日志
