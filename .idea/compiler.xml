@@ -23,6 +23,7 @@
         <module name="oauth-server" />
         <module name="order-service" />
         <module name="product-service" />
+        <module name="ws-1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +34,7 @@
       <module name="chapter-11" target="1.8" />
       <module name="chapter-12" target="1.8" />
       <module name="chapter-13" target="1.8" />
+      <module name="chapter-14" target="1.8" />
       <module name="chapter-2" target="1.8" />
       <module name="chapter-3" target="1.8" />
       <module name="chapter-4" target="1.8" />
@@ -46,6 +48,7 @@
       <module name="order-service" target="1.8" />
       <module name="product-service" target="1.8" />
       <module name="springboot-2.0.x" target="1.8" />
+      <module name="ws-1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
