@@ -26,6 +26,7 @@
         <module name="ws-1" />
         <module name="ws-2" />
         <module name="ws-3" />
+        <module name="ws-4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -53,6 +54,7 @@
       <module name="ws-1" target="1.8" />
       <module name="ws-2" target="1.8" />
       <module name="ws-3" target="1.8" />
+      <module name="ws-4" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
