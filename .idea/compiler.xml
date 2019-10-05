@@ -13,6 +13,7 @@
         <module name="chapter-11" />
         <module name="chapter-12" />
         <module name="chapter-13" />
+        <module name="chapter-15" />
         <module name="chapter-2" />
         <module name="chapter-3" />
         <module name="chapter-4" />
@@ -38,6 +39,7 @@
       <module name="chapter-12" target="1.8" />
       <module name="chapter-13" target="1.8" />
       <module name="chapter-14" target="1.8" />
+      <module name="chapter-15" target="1.8" />
       <module name="chapter-2" target="1.8" />
       <module name="chapter-3" target="1.8" />
       <module name="chapter-4" target="1.8" />
