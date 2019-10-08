@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/chapter-15/chapter-15.iml" filepath="$PROJECT_DIR$/chapter-15/chapter-15.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-16/chapter-16.iml" filepath="$PROJECT_DIR$/chapter-16/chapter-16.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-17/chapter-17.iml" filepath="$PROJECT_DIR$/chapter-17/chapter-17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-18/chapter-18.iml" filepath="$PROJECT_DIR$/chapter-18/chapter-18.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-2/chapter-2.iml" filepath="$PROJECT_DIR$/chapter-2/chapter-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-3/chapter-3.iml" filepath="$PROJECT_DIR$/chapter-3/chapter-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-4/chapter-4.iml" filepath="$PROJECT_DIR$/chapter-4/chapter-4.iml" />
@@ -21,6 +22,9 @@
       <module fileurl="file://$PROJECT_DIR$/chapter-7/chapter-7.iml" filepath="$PROJECT_DIR$/chapter-7/chapter-7.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-8/chapter-8.iml" filepath="$PROJECT_DIR$/chapter-8/chapter-8.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-9/chapter-9.iml" filepath="$PROJECT_DIR$/chapter-9/chapter-9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-18/demo-api/demo-api.iml" filepath="$PROJECT_DIR$/chapter-18/demo-api/demo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-18/demo-consumer/demo-consumer.iml" filepath="$PROJECT_DIR$/chapter-18/demo-consumer/demo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-18/demo-provider/demo-provider.iml" filepath="$PROJECT_DIR$/chapter-18/demo-provider/demo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-17/dubbo-demo-api/dubbo-demo-api.iml" filepath="$PROJECT_DIR$/chapter-17/dubbo-demo-api/dubbo-demo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/dubbo-demo-consumer.iml" filepath="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/dubbo-demo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-17/dubbo-demo-provider/dubbo-demo-provider.iml" filepath="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/dubbo-demo-provider.iml" />

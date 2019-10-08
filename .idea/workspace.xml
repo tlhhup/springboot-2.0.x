@@ -7,33 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f490986d-0bda-44aa-b8b4-f80b63cd6b49" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter-16/chapter-16.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-16/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-16/src/main/java/org/tlh/postgis/PostGisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-16/src/main/java/org/tlh/postgis/entity/GlobalPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-16/src/main/java/org/tlh/postgis/mapper/GlobalPointMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-16/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-16/src/main/resources/mappers/GlobalPointMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-16/src/test/java/org/tlh/postgis/mapper/GlobalPointMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-api/src/main/java/org/tlh/dubbo/demo/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/java/org/tlh/dubbo/demo/ConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/java/org/tlh/dubbo/demo/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/java/org/tlh/duboo/demo/ProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/java/org/tlh/duboo/demo/service/impl/DemoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-17/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-18/demo-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-18/demo-api/src/main/java/org/tlh/dubbo/demo/service/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-18/demo-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-18/demo-consumer/src/main/java/org/tlh/dubbo/demo/DubboConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-18/demo-consumer/src/main/java/org/tlh/dubbo/demo/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-18/demo-consumer/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-18/demo-consumer/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-18/demo-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-18/demo-provider/src/main/java/org/tlh/dubbo/demo/DubboProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-18/demo-provider/src/main/java/org/tlh/dubbo/demo/service/impl/DemoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-18/demo-provider/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-18/demo-provider/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-18/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_5_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -68,6 +59,10 @@
     <ignored path="$PROJECT_DIR$/chapter-17/dubbo-demo-api/target/" />
     <ignored path="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/target/" />
     <ignored path="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-18/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-18/demo-api/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-18/demo-provider/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-18/demo-consumer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +95,28 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter-18/demo-provider/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="43" column="21" selection-start-line="31" selection-start-column="8" selection-end-line="43" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter-18/demo-consumer/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -133,19 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/config/EchoConfig.java" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-2/src/main/resources/echoRequest.xml" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-2/src/main/java/org/tlh/ws/client/EchoClient.java" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/endpoints/HolidayEndpoint.java" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-1/pom.xml" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/service/EchoService.java" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/service/impl/EchoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/endpoints/EchoEndpoint.java" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-3/pom.xml" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/config/EchoServletInitializer.java" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-3/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-2/src/main/java/org/tlh/ws/client/HolidayClient.java" />
         <option value="$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/config/WsConfig.java" />
         <option value="$PROJECT_DIR$/chapter-14/ws-3/src/main/java/org/tlh/ws/WsApplication.java" />
         <option value="$PROJECT_DIR$/chapter-14/ws-2/src/test/java/org/tlh/ws/client/EchoClientTest.java" />
@@ -161,7 +164,6 @@
         <option value="$PROJECT_DIR$/chapter-15/src/main/java/org/tlh/postgis/entity/GlobalPoint.java" />
         <option value="$PROJECT_DIR$/chapter-15/src/test/java/org/tlh/postgis/repositories/GlobalPointRepositoryTest.java" />
         <option value="$PROJECT_DIR$/chapter-15/src/main/java/org/tlh/postgis/repositories/GlobalPointRepository.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/chapter-16/src/main/java/org/tlh/postgis/PostGisApplication.java" />
         <option value="$PROJECT_DIR$/chapter-16/src/main/java/org/tlh/postgis/typehandler/AbstractGeometryTypeHandler.java" />
@@ -184,6 +186,20 @@
         <option value="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/java/org/tlh/dubbo/demo/ConsumerApplication.java" />
         <option value="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/java/org/tlh/duboo/demo/service/impl/DemoServiceImpl.java" />
         <option value="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/java/org/tlh/dubbo/demo/controller/DemoController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/chapter-18/demo-api/src/main/java/org/tlh/dubbo/demo/service/DemoService.java" />
+        <option value="$PROJECT_DIR$/chapter-18/demo-provider/src/main/java/org/tlh/dubbo/demo/DubboProviderApplication.java" />
+        <option value="$PROJECT_DIR$/chapter-18/demo-provider/src/main/java/org/tlh/dubbo/demo/service/impl/DemoService.java" />
+        <option value="$PROJECT_DIR$/chapter-18/demo-provider/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/chapter-18/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-18/demo-consumer/src/main/java/ConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/chapter-18/demo-consumer/src/main/java/controller/DemoController.java" />
+        <option value="$PROJECT_DIR$/chapter-18/demo-consumer/src/main/java/DubboConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/chapter-18/demo-consumer/src/main/java/org/tlh/dubbo/demo/controller/DubboConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/chapter-18/demo-consumer/src/main/java/org/tlh/dubbo/demo/controller/DemoController.java" />
+        <option value="$PROJECT_DIR$/chapter-18/demo-provider/src/main/java/org/tlh/dubbo/demo/service/impl/DemoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/chapter-18/demo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-18/demo-consumer/pom.xml" />
       </list>
     </option>
   </component>
@@ -213,25 +229,18 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dubbo-demo-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="demo-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dubbo-demo-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="demo-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dubbo-demo-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="demo-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.apache.dubbo:dubbo-spring-boot-starter:2.7.3" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dubbo-demo-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.apache.dubbo:dubbo-spring-boot-starter:2.7.3" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.apache.dubbo:dubbo-spring-boot-autoconfigure:2.7.3" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.apache.dubbo:dubbo-dependencies-zookeeper:pom:2.7.3" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -287,7 +296,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -299,102 +307,70 @@
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-18" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-18" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-18" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-18" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-demo-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-18" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-18" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-18" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-18" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-demo-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-demo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-demo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-demo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -411,6 +387,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/chapter-18/demo-consumer/src/main/java/org/tlh/dubbo/demo" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -438,8 +415,11 @@
       <recent name="org.tlh.oauth.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chapter-18/demo-consumer/src/main/java" />
+      <recent name="$PROJECT_DIR$/chapter-18/demo-consumer/src/main/resources" />
+      <recent name="$PROJECT_DIR$/chapter-18/demo-provider/src/main/resources" />
+      <recent name="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/resources" />
       <recent name="$PROJECT_DIR$/chapter-14/ws-4/src/main/resources" />
-      <recent name="$PROJECT_DIR$/chapter-14/ws-3/src/main/resources/request" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -460,7 +440,7 @@
     </option>
     <option name="contentProportion" value="0.24517734" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.DubboConsumerApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -628,6 +608,16 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.dubbo.demo.ConsumerApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
+    <configuration name="DubboConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.dubbo.demo.DubboConsumerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="DubboProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.dubbo.demo.DubboProviderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
     <configuration name="OauthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="oauth-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.oauth.OauthServerApplication" />
@@ -783,6 +773,8 @@
     <list>
       <item itemvalue="Spring Boot.ProviderApplication" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.DubboProviderApplication" />
+      <item itemvalue="Spring Boot.DubboConsumerApplication" />
       <item itemvalue="Spring Boot.WsApplication" />
       <item itemvalue="Spring Boot.Chapter12Application" />
       <item itemvalue="Spring Boot.Chapter8Application" />
@@ -874,7 +866,8 @@
       <workItem from="1570245419043" duration="10663000" />
       <workItem from="1570289624809" duration="992000" />
       <workItem from="1570363530973" duration="5171000" />
-      <workItem from="1570535892499" duration="3919000" />
+      <workItem from="1570535892499" duration="6711000" />
+      <workItem from="1570545962223" duration="1962000" />
     </task>
     <task id="LOCAL-00001" summary="1.缓存应用">
       <created>1544878494043</created>
@@ -1051,7 +1044,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570258936671</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="1.spring boot dubbo应用，基于0.2.1.release版本(旧版本)">
+      <created>1570539902602</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1570539902602</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1087,17 +1087,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164228000" />
+    <option name="totallyTimeSpent" value="168982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="953" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="10" />
       <window_info anchor="right" id="RestServices" order="0" />
       <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.5028612" side_tool="true" weight="0.32853025" />
       <window_info anchor="bottom" id="Application Servers" order="17" weight="0.32893157" />
-      <window_info anchor="right" id="Maven Projects" order="10" weight="0.2844933" />
+      <window_info anchor="right" id="Maven Projects" order="10" visible="true" weight="0.2844933" />
       <window_info anchor="bottom" id="Database Changes" order="20" show_stripe_button="false" />
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Docker" order="18" show_stripe_button="false" />
@@ -1110,12 +1111,12 @@
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32893157" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Java Enterprise" order="19" />
-      <window_info anchor="bottom" content_ui="combo" id="Run Dashboard" order="21" visible="true" weight="0.4909964" />
+      <window_info active="true" anchor="bottom" content_ui="combo" id="Run Dashboard" order="21" visible="true" weight="0.4909964" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32533014" />
       <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49713877" weight="0.4105642" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.5126051" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2783883" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2783883" />
       <window_info anchor="bottom" id="Run with VisualVM" order="0" />
       <window_info anchor="bottom" id="Problems" order="15" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.32967034" />
@@ -1139,16 +1140,14 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="10" />
       <window_info anchor="bottom" id="Application Servers" order="17" weight="0.32893157" />
       <window_info id="Designer" order="7" />
-      <window_info anchor="bottom" content_ui="combo" id="Run Dashboard" order="21" weight="0.4909964" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info id="Image Layers" order="5" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49713877" weight="0.4105642" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49713877" visible="true" weight="0.4105642" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.5126051" />
       <window_info anchor="bottom" id="Docker" order="18" show_stripe_button="false" />
@@ -1156,28 +1155,30 @@
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="CheckStyle" order="14" />
       <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.5028612" side_tool="true" weight="0.32853025" />
-      <window_info anchor="right" id="RestServices" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32967034" />
+      <window_info anchor="bottom" id="Messages" order="9" visible="true" weight="0.32893157" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="3" visible="true" weight="0.24969475" />
       <window_info anchor="bottom" id="Run with VisualVM" order="0" />
       <window_info anchor="bottom" id="Problems" order="15" />
       <window_info anchor="bottom" id="Java Enterprise" order="19" />
       <window_info anchor="bottom" id="JProfiler" order="22" />
       <window_info anchor="bottom" id="Database Changes" order="20" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32533014" />
-      <window_info anchor="right" id="Maven Projects" order="10" weight="0.36568987" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2783883" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32893157" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.2844933" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24969475" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32893157" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2783883" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="1" />
-      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24969475" />
+      <window_info anchor="right" id="RestServices" order="0" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32893157" />
-      <window_info anchor="right" id="Bean Validation" order="8" />
-      <window_info active="true" anchor="bottom" id="Debug" order="5" visible="true" weight="0.5330132" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.5330132" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.32967034" />
+      <window_info anchor="bottom" content_ui="combo" id="Run Dashboard" order="21" weight="0.4909964" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1213,7 +1214,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.缓存应用" />
     <MESSAGE value="1.添加oauth2认证&#10;2.认证之后调用后端服务可以在请求头添加：Authorization token_type token即可调用后端服务" />
     <MESSAGE value="1.添加oauth2认证,将授权服务器和资源服务器分离&#10;2.auth-server：为授权服务器，用于token的签发和token的校验&#10;3.order-service和product-service为两个资源服务器，同时也是受保护的资源，通过remoteTokenService向授权服务器进行token的校验和保护资源的鉴权" />
     <MESSAGE value="1.添加基于内存的认证服务器搭建文档" />
@@ -1238,7 +1238,8 @@
     <MESSAGE value="1.修改Spring boot中对ws的自动装配逻辑(不能在配置类添加@EnableWs注解，否则将导致自动装配无效)&#10;2.可以通过WsConfigurerAdapter来定义自己的需求&#10;3.client直接将请求发送到server端对外暴露的地址，server根据request中的namespace和local找到对应的endpoint，完成请求的处理" />
     <MESSAGE value="1.webserviceTemplate使用" />
     <MESSAGE value="1.spring data jpa操作postgis&#10;2.查询给定位置1000Km的所有点，注意单位为米&#10;3.spring boot 2.X之后数据方言设置方式不同" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.spring data jpa操作postgis&#10;2.查询给定位置1000Km的所有点，注意单位为米&#10;3.spring boot 2.X之后数据方言设置方式不同" />
+    <MESSAGE value="1.spring boot dubbo应用，基于0.2.1.release版本(旧版本)" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.spring boot dubbo应用，基于0.2.1.release版本(旧版本)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1346,123 +1347,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/type/BaseTypeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/postgresql/postgresql/42.2.5/postgresql-42.2.5.jar!/org/postgresql/ds/common/PGObjectFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/postgresql/postgresql/42.2.5/postgresql-42.2.5-sources.jar!/org/postgresql/ds/common/PGObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/postgresql/postgresql/42.2.5/postgresql-42.2.5-sources.jar!/org/postgresql/util/PGobject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-16/src/main/java/org/tlh/postgis/typehandler/AbstractGeometryTypeHandler.java" />
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/vividsolutions/jts/1.13/jts-1.13-sources.jar!/com/vividsolutions/jts/geom/Geometry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="169" column="22" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/eyougo/mybatis-typehandlers-postgis/1.0/mybatis-typehandlers-postgis-1.0.jar!/com/eyougo/mybatis/postgis/type/AbstractGeometryTypeHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/net/postgis/postgis-jdbc/2.2.1/postgis-jdbc-2.2.1.jar!/examples/TestAutoregister.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/net/postgis/postgis-jdbc/2.2.1/postgis-jdbc-2.2.1.jar!/org/postgis/Geometry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/net/postgis/postgis-jdbc/2.2.1/postgis-jdbc-2.2.1-sources.jar!/examples/TestAutoregister.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/net/postgis/postgis-jdbc/2.2.1/postgis-jdbc-2.2.1-sources.jar!/org/postgis/Geometry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-543">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/net/postgis/postgis-jdbc/2.2.1/postgis-jdbc-2.2.1-sources.jar!/org/postgis/PGgeometry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-16/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-15/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-15/src/main/java/org/tlh/postgis/entity/GlobalPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="27" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="32" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-16/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-15/src/main/java/org/tlh/postgis/repositories/GlobalPointRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="76" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter-16/src/main/java/org/tlh/postgis/entity/GlobalPoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1477,9 +1365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1582,9 +1467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="58" column="63" selection-start-line="58" selection-start-column="63" selection-end-line="58" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1632,17 +1514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-provider/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="53" column="21" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="53" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1651,13 +1522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -1672,11 +1536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1695,18 +1554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/java/org/tlh/duboo/demo/service/impl/DemoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/java/org/tlh/dubbo/demo/controller/DemoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1721,6 +1568,157 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-18/demo-api/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/java/org/tlh/duboo/demo/service/impl/DemoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-18/demo-provider/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE-sources.jar!/org/springframework/core/BridgeMethodResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="65" column="61" selection-start-line="65" selection-start-column="61" selection-end-line="65" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-18/demo-provider/src/main/java/org/tlh/dubbo/demo/DubboProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-provider/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-18/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-18/demo-provider/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-18/demo-consumer/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3.jar!/com/alibaba/dubbo/config/annotation/Reference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-18/demo-consumer/src/main/java/org/tlh/dubbo/demo/DubboConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-18/demo-api/src/main/java/org/tlh/dubbo/demo/service/DemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-18/demo-provider/src/main/java/org/tlh/dubbo/demo/service/impl/DemoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-18/demo-consumer/src/main/java/org/tlh/dubbo/demo/controller/DemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3-sources.jar!/com/alibaba/dubbo/config/annotation/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/apache/dubbo/dubbo/2.7.3/dubbo-2.7.3-sources.jar!/com/alibaba/dubbo/config/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-18/demo-provider/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="43" column="21" selection-start-line="31" selection-start-column="8" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-18/demo-consumer/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

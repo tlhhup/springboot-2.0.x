@@ -16,6 +16,9 @@ springboot2.0.x学习整理
 - chapter-13：Spring security
 - chapter-14：webservice使用
 - chapter-15：Spring data jpa操作postgis
+- chapter-16：mybatis操作postgis(待处理)
+- chapter-17：老版的Spring boot dubbo starter(0.2.1)的使用
+- chapter-18：新版的Spring boot dubbo starter的使用
 
 ### 说明
 1. 集成h2的console，其使用的URL地址为: `jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE`
