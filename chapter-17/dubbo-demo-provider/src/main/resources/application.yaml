@@ -1,0 +1,11 @@
+dubbo:
+  application:
+    name: dubbo-demo-provider
+  registry:
+    protocol: zookeeper
+    address: localhost:2181
+  protocol:
+    name: dubbo
+    port: 10001
+  scan:
+    base-packages: org.tlh.duboo.demo.service.impl

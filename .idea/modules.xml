@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/chapter-13/chapter-13.iml" filepath="$PROJECT_DIR$/chapter-13/chapter-13.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-14/chapter-14.iml" filepath="$PROJECT_DIR$/chapter-14/chapter-14.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-15/chapter-15.iml" filepath="$PROJECT_DIR$/chapter-15/chapter-15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-16/chapter-16.iml" filepath="$PROJECT_DIR$/chapter-16/chapter-16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-17/chapter-17.iml" filepath="$PROJECT_DIR$/chapter-17/chapter-17.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-2/chapter-2.iml" filepath="$PROJECT_DIR$/chapter-2/chapter-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-3/chapter-3.iml" filepath="$PROJECT_DIR$/chapter-3/chapter-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-4/chapter-4.iml" filepath="$PROJECT_DIR$/chapter-4/chapter-4.iml" />
@@ -19,6 +21,9 @@
       <module fileurl="file://$PROJECT_DIR$/chapter-7/chapter-7.iml" filepath="$PROJECT_DIR$/chapter-7/chapter-7.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-8/chapter-8.iml" filepath="$PROJECT_DIR$/chapter-8/chapter-8.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-9/chapter-9.iml" filepath="$PROJECT_DIR$/chapter-9/chapter-9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-17/dubbo-demo-api/dubbo-demo-api.iml" filepath="$PROJECT_DIR$/chapter-17/dubbo-demo-api/dubbo-demo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/dubbo-demo-consumer.iml" filepath="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/dubbo-demo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-17/dubbo-demo-provider/dubbo-demo-provider.iml" filepath="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/dubbo-demo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-7/oauth-server/oauth-server.iml" filepath="$PROJECT_DIR$/chapter-7/oauth-server/oauth-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-7/oauth2/oauth2.iml" filepath="$PROJECT_DIR$/chapter-7/oauth2/oauth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-7/oauth2/order-service/order-service.iml" filepath="$PROJECT_DIR$/chapter-7/oauth2/order-service/order-service.iml" />

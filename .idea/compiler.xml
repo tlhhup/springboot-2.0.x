@@ -14,6 +14,7 @@
         <module name="chapter-12" />
         <module name="chapter-13" />
         <module name="chapter-15" />
+        <module name="chapter-16" />
         <module name="chapter-2" />
         <module name="chapter-3" />
         <module name="chapter-4" />
@@ -21,6 +22,9 @@
         <module name="chapter-6" />
         <module name="chapter-8" />
         <module name="chapter-9" />
+        <module name="dubbo-demo-api" />
+        <module name="dubbo-demo-consumer" />
+        <module name="dubbo-demo-provider" />
         <module name="oauth-server" />
         <module name="order-service" />
         <module name="product-service" />
@@ -40,6 +44,8 @@
       <module name="chapter-13" target="1.8" />
       <module name="chapter-14" target="1.8" />
       <module name="chapter-15" target="1.8" />
+      <module name="chapter-16" target="1.8" />
+      <module name="chapter-17" target="1.8" />
       <module name="chapter-2" target="1.8" />
       <module name="chapter-3" target="1.8" />
       <module name="chapter-4" target="1.8" />
@@ -48,6 +54,9 @@
       <module name="chapter-7" target="1.8" />
       <module name="chapter-8" target="1.8" />
       <module name="chapter-9" target="1.8" />
+      <module name="dubbo-demo-api" target="1.8" />
+      <module name="dubbo-demo-consumer" target="1.8" />
+      <module name="dubbo-demo-provider" target="1.8" />
       <module name="oauth-server" target="1.8" />
       <module name="oauth2" target="1.8" />
       <module name="order-service" target="1.8" />

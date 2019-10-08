@@ -7,20 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f490986d-0bda-44aa-b8b4-f80b63cd6b49" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter-15/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-15/src/main/java/org/tlh/postgis/PostGisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-15/src/main/java/org/tlh/postgis/entity/GlobalPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-15/src/main/java/org/tlh/postgis/entity/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-15/src/main/java/org/tlh/postgis/repositories/GlobalPointRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-15/src/main/java/org/tlh/postgis/repositories/GoodsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-15/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-15/src/test/java/org/tlh/postgis/repositories/GlobalPointRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter-15/src/test/java/org/tlh/postgis/repositories/GoodsRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-16/chapter-16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-16/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-16/src/main/java/org/tlh/postgis/PostGisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-16/src/main/java/org/tlh/postgis/entity/GlobalPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-16/src/main/java/org/tlh/postgis/mapper/GlobalPointMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-16/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-16/src/main/resources/mappers/GlobalPointMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-16/src/test/java/org/tlh/postgis/mapper/GlobalPointMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-api/src/main/java/org/tlh/dubbo/demo/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/java/org/tlh/dubbo/demo/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/java/org/tlh/dubbo/demo/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/java/org/tlh/duboo/demo/ProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/java/org/tlh/duboo/demo/service/impl/DemoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter-17/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_5_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -50,6 +63,11 @@
     <ignored path="$PROJECT_DIR$/chapter-14/ws-3/target/" />
     <ignored path="$PROJECT_DIR$/chapter-14/ws-4/target/" />
     <ignored path="$PROJECT_DIR$/chapter-15/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-16/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-17/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-17/dubbo-demo-api/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,72 +100,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="GlobalPointRepository.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter-15/src/main/java/org/tlh/postgis/repositories/GlobalPointRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter-15/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="289">
-                <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter-15/src/main/resources/application.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GlobalPoint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter-15/src/main/java/org/tlh/postgis/entity/GlobalPoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GlobalPointRepositoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter-15/src/test/java/org/tlh/postgis/repositories/GlobalPointRepositoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -155,9 +108,9 @@
         <option value="AnnotationType" />
         <option value="Arquillian JUnit Test Class" />
         <option value="HTML File" />
-        <option value="Class" />
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -180,27 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter-13/src/main/java/org/tlh/springboot/config/WebMvcConfiguration.java" />
-        <option value="$PROJECT_DIR$/chapter-13/src/main/java/org/tlh/springboot/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/chapter-13/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/chapter-13/src/main/java/org/tlh/springboot/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/chapter-13/src/main/resources/templates/customLogin.html" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/webapp/WEB-INF/wsdl.xml" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/service/HumanResourceService.java" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/service/impl/HumanResourceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/webapp/WEB-INF/hr.xsd" />
-        <option value="$PROJECT_DIR$/chapter-14/pom.xml" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/webapp/WEB-INF/spring-ws-servlet.xml" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/resources/spring-ws-servlet.xml" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/test/java/org/tlh/ws/endpoints/HolidayEndpointTest.java" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-2/pom.xml" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-2/src/test/java/org/tlh/ws/test/HolidayClientTest.java" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-2/src/main/resources/HolidayRequest.xml" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/service/EchoService.java" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/endpoints/EchoEndpoint.java" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/service/impl/EchoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/resources/xsd/echo.xsd" />
         <option value="$PROJECT_DIR$/chapter-14/ws-1/src/main/java/org/tlh/ws/config/EchoConfig.java" />
         <option value="$PROJECT_DIR$/chapter-14/ws-2/src/main/resources/echoRequest.xml" />
         <option value="$PROJECT_DIR$/chapter-14/ws-2/src/main/java/org/tlh/ws/client/EchoClient.java" />
@@ -230,7 +162,28 @@
         <option value="$PROJECT_DIR$/chapter-15/src/test/java/org/tlh/postgis/repositories/GlobalPointRepositoryTest.java" />
         <option value="$PROJECT_DIR$/chapter-15/src/main/java/org/tlh/postgis/repositories/GlobalPointRepository.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/chapter-16/src/main/java/org/tlh/postgis/PostGisApplication.java" />
+        <option value="$PROJECT_DIR$/chapter-16/src/main/java/org/tlh/postgis/typehandler/AbstractGeometryTypeHandler.java" />
+        <option value="$PROJECT_DIR$/chapter-16/pom.xml" />
         <option value="$PROJECT_DIR$/chapter-15/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/chapter-16/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/chapter-16/src/main/java/org/tlh/postgis/entity/GlobalPoint.java" />
+        <option value="$PROJECT_DIR$/chapter-16/src/main/java/org/tlh/postgis/mapper/GlobalPointMapper.java" />
+        <option value="$PROJECT_DIR$/chapter-16/src/main/resources/mappers/GlobalPointMapper.xml" />
+        <option value="$PROJECT_DIR$/chapter-16/src/test/java/org/tlh/postgis/mapper/GlobalPointMapperTest.java" />
+        <option value="$PROJECT_DIR$/chapter-17/dubbo-demo-api/src/main/java/org/tlh/dubbo/demo/DemoService.java" />
+        <option value="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/java/org/tlh/duboo/demo/service/impl/ProviderApplication.java" />
+        <option value="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-17/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/java/org/tlh/dubbo/demo/ConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/java/org/tlh/duboo/demo/service/impl/DemoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/java/org/tlh/dubbo/demo/controller/DemoController.java" />
       </list>
     </option>
   </component>
@@ -260,7 +213,25 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="chapter-15" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="dubbo-demo-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo-demo-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo-demo-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.apache.dubbo:dubbo-spring-boot-starter:2.7.3" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo-demo-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.apache.dubbo:dubbo-spring-boot-starter:2.7.3" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.apache.dubbo:dubbo-spring-boot-autoconfigure:2.7.3" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -328,62 +299,64 @@
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-15" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-15" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-15" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-15" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-15" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="postgis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-15" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="postgis" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-15" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="postgis" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-15" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -391,26 +364,32 @@
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-15" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-15" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-15" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-2.0.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-2.0.x" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-17" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -438,15 +417,22 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.tlh.postgis.mapper" />
       <recent name="org.tlh.postgis.repositories" />
       <recent name="org.tlh.ws.client" />
       <recent name="org.tlh.ws.test" />
       <recent name="org.tlh.ws.endpoints" />
-      <recent name="org.tlh.rpc.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chapter-14/ws-1/src/main/resources/xsd" />
+      <recent name="$PROJECT_DIR$/chapter-14/ws-1/src/main/resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.tlh.oauth.config" />
@@ -454,13 +440,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/chapter-14/ws-4/src/main/resources" />
       <recent name="$PROJECT_DIR$/chapter-14/ws-3/src/main/resources/request" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/chapter-14/ws-1/src/main/resources/xsd" />
-      <recent name="$PROJECT_DIR$/chapter-14/ws-1/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -481,12 +460,35 @@
     </option>
     <option name="contentProportion" value="0.24517734" />
   </component>
-  <component name="RunManager" selected="JUnit.GlobalPointRepositoryTest.queryDistance">
+  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="GlobalPointMapperTest.findByDistance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter-16" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tlh.postgis.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.tlh.postgis.mapper" />
+      <option name="MAIN_CLASS_NAME" value="org.tlh.postgis.mapper.GlobalPointMapperTest" />
+      <option name="METHOD_NAME" value="findByDistance" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="GlobalPointRepositoryTest.queryDistance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chapter-15" />
@@ -546,29 +548,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.tlh.postgis.repositories" />
       <option name="MAIN_CLASS_NAME" value="org.tlh.postgis.repositories.GlobalPointRepositoryTest" />
-      <option name="METHOD_NAME" value="selectOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="GoodsRepositoryTest.selectOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chapter-15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.tlh.postgis.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.tlh.postgis.repositories" />
-      <option name="MAIN_CLASS_NAME" value="org.tlh.postgis.repositories.GoodsRepositoryTest" />
       <option name="METHOD_NAME" value="selectOne" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -644,6 +623,11 @@
       <module name="chapter-9" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.rpc.Chapter9Application" />
     </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-demo-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.dubbo.demo.ConsumerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
     <configuration name="OauthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="oauth-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.oauth.OauthServerApplication" />
@@ -657,6 +641,11 @@
     <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="product-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.oauth.ProductApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-demo-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tlh.duboo.demo.ProviderApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="WsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -792,6 +781,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.ProviderApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
       <item itemvalue="Spring Boot.WsApplication" />
       <item itemvalue="Spring Boot.Chapter12Application" />
       <item itemvalue="Spring Boot.Chapter8Application" />
@@ -810,15 +801,15 @@
       <item itemvalue="Tomcat Server.ws-1" />
       <item itemvalue="JUnit.GlobalPointRepositoryTest.save" />
       <item itemvalue="JUnit.GlobalPointRepositoryTest.selectOne" />
-      <item itemvalue="JUnit.GoodsRepositoryTest.selectOne" />
       <item itemvalue="JUnit.GlobalPointRepositoryTest.queryDistance" />
+      <item itemvalue="JUnit.GlobalPointMapperTest.findByDistance" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GlobalPointMapperTest.findByDistance" />
         <item itemvalue="JUnit.GlobalPointRepositoryTest.queryDistance" />
         <item itemvalue="JUnit.GlobalPointRepositoryTest.save" />
         <item itemvalue="JUnit.GlobalPointRepositoryTest.selectOne" />
-        <item itemvalue="JUnit.GoodsRepositoryTest.selectOne" />
       </list>
     </recent_temporary>
   </component>
@@ -880,7 +871,10 @@
       <workItem from="1555227813858" duration="15056000" />
       <workItem from="1555333835866" duration="2332000" />
       <workItem from="1555337677217" duration="181000" />
-      <workItem from="1570245419043" duration="10441000" />
+      <workItem from="1570245419043" duration="10663000" />
+      <workItem from="1570289624809" duration="992000" />
+      <workItem from="1570363530973" duration="5171000" />
+      <workItem from="1570535892499" duration="3919000" />
     </task>
     <task id="LOCAL-00001" summary="1.缓存应用">
       <created>1544878494043</created>
@@ -1050,16 +1044,17 @@
       <option name="project" value="LOCAL" />
       <updated>1555337811638</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="1.spring data jpa操作postgis&#10;2.查询给定位置1000Km的所有点，注意单位为米&#10;3.spring boot 2.X之后数据方言设置方式不同">
+      <created>1570258936670</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1570258936671</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GlobalPointRepositoryTest_selectOne - 2019.10.05 at 14h 33m 55s.xml">
-      <configuration name="GlobalPointRepositoryTest.selectOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GlobalPointRepositoryTest_selectOne - 2019.10.05 at 14h 34m 19s.xml">
-      <configuration name="GlobalPointRepositoryTest.selectOne" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GlobalPointRepositoryTest_save - 2019.10.05 at 14h 34m 41s.xml">
       <configuration name="GlobalPointRepositoryTest.save" configurationId="JUnit" />
     </history-entry>
@@ -1084,20 +1079,25 @@
     <history-entry file="GlobalPointRepositoryTest_queryDistance - 2019.10.05 at 14h 53m 08s.xml">
       <configuration name="GlobalPointRepositoryTest.queryDistance" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GlobalPointMapperTest_findByDistance - 2019.10.06 at 21h 36m 13s.xml">
+      <configuration name="GlobalPointMapperTest.findByDistance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GlobalPointMapperTest_findByDistance - 2019.10.06 at 21h 38m 52s.xml">
+      <configuration name="GlobalPointMapperTest.findByDistance" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153924000" />
+    <option name="totallyTimeSpent" value="164228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="953" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="10" />
       <window_info anchor="right" id="RestServices" order="0" />
       <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.5028612" side_tool="true" weight="0.32853025" />
       <window_info anchor="bottom" id="Application Servers" order="17" weight="0.32893157" />
-      <window_info anchor="right" id="Maven Projects" order="10" weight="0.36568987" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.2844933" />
       <window_info anchor="bottom" id="Database Changes" order="20" show_stripe_button="false" />
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Docker" order="18" show_stripe_button="false" />
@@ -1110,15 +1110,15 @@
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32893157" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Java Enterprise" order="19" />
-      <window_info anchor="bottom" content_ui="combo" id="Run Dashboard" order="21" weight="0.4909964" />
+      <window_info anchor="bottom" content_ui="combo" id="Run Dashboard" order="21" visible="true" weight="0.4909964" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32533014" />
       <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49713877" weight="0.4105642" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.5126051" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2722833" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2783883" />
       <window_info anchor="bottom" id="Run with VisualVM" order="0" />
       <window_info anchor="bottom" id="Problems" order="15" />
-      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.32967034" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="1" />
@@ -1127,7 +1127,7 @@
       <window_info anchor="bottom" id="JProfiler" order="22" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info id="Image Layers" order="5" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="3" visible="true" weight="0.24969475" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32893157" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="2" />
@@ -1139,6 +1139,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="10" />
       <window_info anchor="bottom" id="Application Servers" order="17" weight="0.32893157" />
       <window_info id="Designer" order="7" />
+      <window_info anchor="bottom" content_ui="combo" id="Run Dashboard" order="21" weight="0.4909964" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info id="Image Layers" order="5" />
@@ -1147,6 +1148,7 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
+      <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.5126051" />
       <window_info anchor="bottom" id="Docker" order="18" show_stripe_button="false" />
@@ -1154,9 +1156,9 @@
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="CheckStyle" order="14" />
       <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.5028612" side_tool="true" weight="0.32853025" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32893157" />
-      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="right" id="RestServices" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Run with VisualVM" order="0" />
       <window_info anchor="bottom" id="Problems" order="15" />
       <window_info anchor="bottom" id="Java Enterprise" order="19" />
@@ -1164,20 +1166,18 @@
       <window_info anchor="bottom" id="Database Changes" order="20" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32533014" />
       <window_info anchor="right" id="Maven Projects" order="10" weight="0.36568987" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24969475" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32893157" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2722833" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32967034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2783883" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32893157" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="1" />
-      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="RestServices" order="0" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24969475" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Debug" order="5" visible="true" weight="0.5330132" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32893157" />
       <window_info anchor="right" id="Bean Validation" order="8" />
-      <window_info anchor="bottom" content_ui="combo" id="Run Dashboard" order="21" weight="0.4909964" />
+      <window_info active="true" anchor="bottom" id="Debug" order="5" visible="true" weight="0.5330132" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1237,7 +1237,8 @@
     <MESSAGE value="1.Spring boot中使用 web service" />
     <MESSAGE value="1.修改Spring boot中对ws的自动装配逻辑(不能在配置类添加@EnableWs注解，否则将导致自动装配无效)&#10;2.可以通过WsConfigurerAdapter来定义自己的需求&#10;3.client直接将请求发送到server端对外暴露的地址，server根据request中的namespace和local找到对应的endpoint，完成请求的处理" />
     <MESSAGE value="1.webserviceTemplate使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.webserviceTemplate使用" />
+    <MESSAGE value="1.spring data jpa操作postgis&#10;2.查询给定位置1000Km的所有点，注意单位为米&#10;3.spring boot 2.X之后数据方言设置方式不同" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.spring data jpa操作postgis&#10;2.查询给定位置1000Km的所有点，注意单位为米&#10;3.spring boot 2.X之后数据方言设置方式不同" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1278,15 +1279,26 @@
           <properties />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chapter-16/src/test/java/org/tlh/postgis/mapper/GlobalPointMapperTest.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="56" />
+      <option name="time" value="60" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>rs.getObject(columnName)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>StreamUtils.copyToString(((RequestFacade) httpServletRequest).getInputStream(),Charset.defaultCharset())</expression-string>
         <language-id>JAVA</language-id>
@@ -1331,297 +1343,164 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>getDecisionVoters()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/geolatte/geolatte-geom/1.2.0/geolatte-geom-1.2.0.jar!/org/geolatte/geom/Point.class">
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/type/BaseTypeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/postgresql/postgresql/42.2.5/postgresql-42.2.5.jar!/org/postgresql/ds/common/PGObjectFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/postgresql/postgresql/42.2.5/postgresql-42.2.5-sources.jar!/org/postgresql/ds/common/PGObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/postgresql/postgresql/42.2.5/postgresql-42.2.5-sources.jar!/org/postgresql/util/PGobject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-16/src/main/java/org/tlh/postgis/typehandler/AbstractGeometryTypeHandler.java" />
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/vividsolutions/jts/1.13/jts-1.13-sources.jar!/com/vividsolutions/jts/geom/Geometry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="169" column="22" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/eyougo/mybatis-typehandlers-postgis/1.0/mybatis-typehandlers-postgis-1.0.jar!/com/eyougo/mybatis/postgis/type/AbstractGeometryTypeHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/geolatte/geolatte-geom/1.2.0/geolatte-geom-1.2.0-sources.jar!/org/geolatte/geom/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/geolatte/geolatte-geom/1.2.0/geolatte-geom-1.2.0-sources.jar!/org/geolatte/geom/C2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/geolatte/geolatte-geom/1.2.0/geolatte-geom-1.2.0-sources.jar!/org/geolatte/geom/crs/CoordinateReferenceSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/geolatte/geolatte-geom/1.2.0/geolatte-geom-1.2.0-sources.jar!/org/geolatte/geom/crs/CrsId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1055">
-          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/geolatte/geolatte-geom/1.2.0/geolatte-geom-1.2.0-sources.jar!/org/geolatte/geom/crs/Geographic2DCoordinateReferenceSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="47" column="88" selection-start-line="47" selection-start-column="88" selection-end-line="47" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/geolatte/geolatte-geom/1.2.0/geolatte-geom-1.2.0-sources.jar!/org/geolatte/geom/crs/EllipsoidalCoordinateSystem2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/geolatte/geolatte-geom/1.2.0/geolatte-geom-1.2.0-sources.jar!/org/geolatte/geom/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="40" column="48" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1.jar!/org/locationtech/jts/geom/GeometryFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/GeometryFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="97" column="18" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/locationtech/jts/jts-core/1.16.1/jts-core-1.16.1-sources.jar!/org/locationtech/jts/geom/PrecisionModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-5/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/spring-orm/5.0.9.RELEASE/spring-orm-5.0.9.RELEASE.jar!/org/springframework/orm/jpa/vendor/Database.class">
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/net/postgis/postgis-jdbc/2.2.1/postgis-jdbc-2.2.1.jar!/examples/TestAutoregister.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/spring-orm/5.0.9.RELEASE/spring-orm-5.0.9.RELEASE-sources.jar!/org/springframework/orm/jpa/vendor/Database.java">
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/net/postgis/postgis-jdbc/2.2.1/postgis-jdbc-2.2.1.jar!/org/postgis/Geometry.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        <state relative-caret-position="102">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="57" column="44" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="44" />
-          <folding>
-            <element signature="e#2843#2844#0" expanded="true" />
-            <element signature="e#2890#2891#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-1/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-734" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-2/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-496" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-3/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-204" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-3/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/net/postgis/postgis-jdbc/2.2.1/postgis-jdbc-2.2.1-sources.jar!/examples/TestAutoregister.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-4/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-4/READEME.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-666" />
-          <second_editor />
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/net/postgis/postgis-jdbc/2.2.1/postgis-jdbc-2.2.1-sources.jar!/org/postgis/Geometry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-543">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-5/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-411" />
-          <second_editor />
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/net/postgis/postgis-jdbc/2.2.1/postgis-jdbc-2.2.1-sources.jar!/org/postgis/PGgeometry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-6/pom.xml">
+    <entry file="file://$PROJECT_DIR$/chapter-16/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-6/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-7/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-6582" />
-          <second_editor />
+        <state relative-caret-position="544">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-7/oauth-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/auth-server-jdbc/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/auth-server-jdbc/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/auth-server/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/auth-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/order-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-7/oauth2/product-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-8/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-10/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-11/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-12/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-13/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-4797" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-13/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-14/ws-1/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-14/ws-3/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/hibernate/hibernate-spatial/5.2.17.Final/hibernate-spatial-5.2.17.Final-sources.jar!/org/hibernate/spatial/JTSGeometryType.java">
+    <entry file="file://$PROJECT_DIR$/chapter-15/src/main/resources/application.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-15/src/test/java/org/tlh/postgis/repositories/GoodsRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-15/src/main/java/org/tlh/postgis/entity/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-15/src/main/java/org/tlh/postgis/repositories/GoodsRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/vividsolutions/jts/1.13/jts-1.13-sources.jar!/com/vividsolutions/jts/geom/GeometryFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        <state relative-caret-position="85">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter-15/src/main/java/org/tlh/postgis/entity/GlobalPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="544">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-16/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-15/src/main/java/org/tlh/postgis/repositories/GlobalPointRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="76" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-16/src/main/java/org/tlh/postgis/entity/GlobalPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-16/src/main/resources/mappers/GlobalPointMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-16/src/main/java/org/tlh/postgis/mapper/GlobalPointMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/spring-test/5.0.9.RELEASE/spring-test-5.0.9.RELEASE.jar!/org/springframework/test/context/junit4/SpringRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/net/postgis/postgis-jdbc/2.2.1/postgis-jdbc-2.2.1-sources.jar!/org/postgis/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="117" column="11" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/net/postgis/postgis-jdbc/2.2.1/postgis-jdbc-2.2.1-sources.jar!/org/postgis/binary/BinaryWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1452">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1633,39 +1512,215 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="289">
-            <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-15/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter-15/src/test/java/org/tlh/postgis/repositories/GlobalPointRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        <state relative-caret-position="616">
+          <caret line="66" column="94" selection-start-line="66" selection-start-column="87" selection-end-line="66" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-15/src/main/java/org/tlh/postgis/repositories/GlobalPointRepository.java">
+    <entry file="file://$PROJECT_DIR$/chapter-16/src/test/java/org/tlh/postgis/mapper/GlobalPointMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        <state relative-caret-position="255">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/com/eyougo/mybatis-typehandlers-postgis/1.0/mybatis-typehandlers-postgis-1.0-sources.jar!/com/eyougo/mybatis/postgis/type/AbstractGeometryTypeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/geolatte/geolatte-geom/1.2.0/geolatte-geom-1.2.0-sources.jar!/org/geolatte/geom/Geometry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/hibernate/hibernate-core/5.2.17.Final/hibernate-core-5.2.17.Final.jar!/org/hibernate/type/descriptor/sql/BasicBinder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/hibernate/hibernate-core/5.2.17.Final/hibernate-core-5.2.17.Final.jar!/org/hibernate/type/descriptor/java/JavaTypeDescriptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/hibernate/hibernate-core/5.2.17.Final/hibernate-core-5.2.17.Final-sources.jar!/org/hibernate/type/descriptor/sql/SqlTypeDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/hibernate/hibernate-core/5.2.17.Final/hibernate-core-5.2.17.Final-sources.jar!/org/hibernate/type/descriptor/java/JavaTypeDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1268">
+          <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/hibernate/hibernate-core/5.2.17.Final/hibernate-core-5.2.17.Final-sources.jar!/org/hibernate/type/descriptor/sql/BasicBinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/hibernate/hibernate-spatial/5.2.17.Final/hibernate-spatial-5.2.17.Final-sources.jar!/org/hibernate/spatial/dialect/postgis/PGGeometryTypeDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="58" column="63" selection-start-line="58" selection-start-column="63" selection-end-line="58" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/hibernate/hibernate-spatial/5.2.17.Final/hibernate-spatial-5.2.17.Final-sources.jar!/org/hibernate/spatial/JTSGeometryJavaTypeDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/geolatte/geolatte-geom/1.2.0/geolatte-geom-1.2.0-sources.jar!/org/geolatte/geom/jts/JTS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-api/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="95" selection-start-line="6" selection-start-column="95" selection-end-line="6" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-maven-3.5.4/repository/org/springframework/boot/spring-boot/2.0.5.RELEASE/spring-boot-2.0.5.RELEASE-sources.jar!/org/springframework/boot/env/YamlPropertySourceLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/java/org/tlh/duboo/demo/ProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-provider/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="53" column="21" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-17/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/java/org/tlh/dubbo/demo/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-api/src/main/java/org/tlh/dubbo/demo/DemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-provider/src/main/java/org/tlh/duboo/demo/service/impl/DemoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/java/org/tlh/dubbo/demo/controller/DemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-17/dubbo-demo-consumer/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

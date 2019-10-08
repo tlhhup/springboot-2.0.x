@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://101.132.69.45:25432/near_go
+    username: postgres
+    password: admintlhhup
+mybatis:
+  type-handlers-package: com.eyougo.mybatis.postgis.type
+  mapper-locations: classpath:mappers/*.xml
